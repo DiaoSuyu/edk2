@@ -100,7 +100,7 @@
 
   # <Sam_Diao20250607+>
   # lvgl gui(only for test)
-  SamModulePkg/Applications/lvgl/lvgl.inf
+  SamModulePkg/Debug/lvgl/lvgl.inf
   # <Sam_Diao20250607->
 
   #

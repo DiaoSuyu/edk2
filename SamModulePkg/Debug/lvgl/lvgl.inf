@@ -1,0 +1,1704 @@
+## @file
+#  DelayTool UEFI Application Module.
+#
+##
+
+[Defines]
+  INF_VERSION                    = 0x00010005
+  BASE_NAME                      = lvgl
+  FILE_GUID                      = c0f26c72-f0b5-4105-8e99-5cba61e8818e
+  MODULE_TYPE                    = UEFI_APPLICATION
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = ShellCEntryLib
+
+# The following information is for reference only and not required by the build tools.
+#
+#  VALID_ARCHITECTURES           = IA32 X64
+#
+
+[Sources]
+  #
+  # root
+  #
+  lvgl.c
+
+  #
+  # src
+  #
+  src/lv_init.c
+  
+  #
+  # src/core
+  #
+  src/core/lv_group.c
+  src/core/lv_obj.c
+  src/core/lv_obj_class.c
+  src/core/lv_obj_draw.c
+  src/core/lv_obj_event.c
+  src/core/lv_obj_id_builtin.c
+  src/core/lv_obj_pos.c
+  src/core/lv_obj_property.c
+  src/core/lv_obj_scroll.c
+  src/core/lv_obj_style.c
+  src/core/lv_obj_style_gen.c
+  src/core/lv_obj_tree.c
+  src/core/lv_refr.c
+  
+  #
+  # src/display
+  #
+  src/display/lv_display.c
+  
+  #
+  # src/draw
+  #
+  src/draw/lv_draw.c
+  src/draw/lv_draw_3d.c
+  src/draw/lv_draw_arc.c
+  src/draw/lv_draw_buf.c
+  src/draw/lv_draw_image.c
+  src/draw/lv_draw_label.c
+  src/draw/lv_draw_line.c
+  src/draw/lv_draw_mask.c
+  src/draw/lv_draw_rect.c
+  src/draw/lv_draw_triangle.c
+  src/draw/lv_draw_vector.c
+  src/draw/lv_image_decoder.c
+  
+  #
+  # src/draw/dma2d
+  #
+  src/draw/dma2d/lv_draw_dma2d.c
+  src/draw/dma2d/lv_draw_dma2d_fill.c
+  src/draw/dma2d/lv_draw_dma2d_img.c
+  
+  #
+  # src/draw/nema_gfx
+  #
+  src/draw/nema_gfx/lv_draw_nema_gfx.c
+  src/draw/nema_gfx/lv_draw_nema_gfx_arc.c
+  src/draw/nema_gfx/lv_draw_nema_gfx_border.c
+  src/draw/nema_gfx/lv_draw_nema_gfx_fill.c
+  src/draw/nema_gfx/lv_draw_nema_gfx_img.c
+  src/draw/nema_gfx/lv_draw_nema_gfx_label.c
+  src/draw/nema_gfx/lv_draw_nema_gfx_layer.c
+  src/draw/nema_gfx/lv_draw_nema_gfx_line.c
+  src/draw/nema_gfx/lv_draw_nema_gfx_stm32_hal.c
+  src/draw/nema_gfx/lv_draw_nema_gfx_triangle.c
+  src/draw/nema_gfx/lv_draw_nema_gfx_utils.c
+  src/draw/nema_gfx/lv_nema_gfx_path.c
+  
+  #
+  # src/draw/nxp/g2d
+  #
+  src/draw/nxp/g2d/lv_draw_buf_g2d.c
+  src/draw/nxp/g2d/lv_draw_g2d.c
+  src/draw/nxp/g2d/lv_draw_g2d_fill.c
+  src/draw/nxp/g2d/lv_draw_g2d_img.c
+  src/draw/nxp/g2d/lv_g2d_buf_map.c
+  src/draw/nxp/g2d/lv_g2d_utils.c
+  
+  #
+  # src/draw/nxp/pxp
+  #
+  src/draw/nxp/pxp/lv_draw_buf_pxp.c
+  src/draw/nxp/pxp/lv_draw_pxp.c
+  src/draw/nxp/pxp/lv_draw_pxp_fill.c
+  src/draw/nxp/pxp/lv_draw_pxp_img.c
+  src/draw/nxp/pxp/lv_draw_pxp_layer.c
+  src/draw/nxp/pxp/lv_pxp_cfg.c
+  src/draw/nxp/pxp/lv_pxp_osa.c
+  src/draw/nxp/pxp/lv_pxp_utils.c
+  
+  #
+  # src/draw/nxp/vglite
+  #
+  src/draw/nxp/vglite/lv_draw_buf_vglite.c
+  src/draw/nxp/vglite/lv_draw_vglite.c
+  src/draw/nxp/vglite/lv_draw_vglite_arc.c
+  src/draw/nxp/vglite/lv_draw_vglite_border.c
+  src/draw/nxp/vglite/lv_draw_vglite_fill.c
+  src/draw/nxp/vglite/lv_draw_vglite_img.c
+  src/draw/nxp/vglite/lv_draw_vglite_label.c
+  src/draw/nxp/vglite/lv_draw_vglite_layer.c
+  src/draw/nxp/vglite/lv_draw_vglite_line.c
+  src/draw/nxp/vglite/lv_draw_vglite_triangle.c
+  src/draw/nxp/vglite/lv_vglite_buf.c
+  src/draw/nxp/vglite/lv_vglite_matrix.c
+  src/draw/nxp/vglite/lv_vglite_path.c
+  src/draw/nxp/vglite/lv_vglite_utils.c
+  
+  #
+  # src/draw/opengles
+  #
+  src/draw/opengles/lv_draw_opengles.c
+  
+  #
+  # src/draw/renesas/dave2d
+  #
+  src/draw/renesas/dave2d/lv_draw_dave2d.c
+  src/draw/renesas/dave2d/lv_draw_dave2d_arc.c
+  src/draw/renesas/dave2d/lv_draw_dave2d_border.c
+  src/draw/renesas/dave2d/lv_draw_dave2d_fill.c
+  src/draw/renesas/dave2d/lv_draw_dave2d_image.c
+  src/draw/renesas/dave2d/lv_draw_dave2d_label.c
+  src/draw/renesas/dave2d/lv_draw_dave2d_line.c
+  src/draw/renesas/dave2d/lv_draw_dave2d_mask_rectangle.c
+  src/draw/renesas/dave2d/lv_draw_dave2d_triangle.c
+  src/draw/renesas/dave2d/lv_draw_dave2d_utils.c
+  
+  #
+  # src/draw/sdl
+  #
+  src/draw/sdl/lv_draw_sdl.c
+  
+  #
+  # src/draw/sw
+  #
+  src/draw/sw/lv_draw_sw.c
+  src/draw/sw/lv_draw_sw_arc.c
+  src/draw/sw/lv_draw_sw_border.c
+  src/draw/sw/lv_draw_sw_box_shadow.c
+  src/draw/sw/lv_draw_sw_fill.c
+  src/draw/sw/lv_draw_sw_grad.c
+  src/draw/sw/lv_draw_sw_img.c
+  src/draw/sw/lv_draw_sw_letter.c
+  src/draw/sw/lv_draw_sw_line.c
+  src/draw/sw/lv_draw_sw_mask.c
+  src/draw/sw/lv_draw_sw_mask_rect.c
+  src/draw/sw/lv_draw_sw_transform.c
+  src/draw/sw/lv_draw_sw_triangle.c
+  src/draw/sw/lv_draw_sw_utils.c
+  src/draw/sw/lv_draw_sw_vector.c
+  
+  #
+  # src/draw/sw/arm2d
+  # 
+  
+  #
+  # src/draw/sw/blend
+  #
+  src/draw/sw/blend/lv_draw_sw_blend.c
+  src/draw/sw/blend/lv_draw_sw_blend_to_al88.c
+  src/draw/sw/blend/lv_draw_sw_blend_to_argb8888.c
+  src/draw/sw/blend/lv_draw_sw_blend_to_argb8888_premultiplied.c
+  src/draw/sw/blend/lv_draw_sw_blend_to_i1.c
+  src/draw/sw/blend/lv_draw_sw_blend_to_l8.c
+  src/draw/sw/blend/lv_draw_sw_blend_to_rgb565.c
+  src/draw/sw/blend/lv_draw_sw_blend_to_rgb565_swapped.c
+  src/draw/sw/blend/lv_draw_sw_blend_to_rgb888.c
+  
+  #
+  # src/draw/sw/blend/arm2d
+  # 
+  
+  #
+  # src/draw/sw/blend/helium
+  # 
+  
+  #
+  # src/draw/sw/blend/neon
+  # 
+  
+  #
+  # src/draw/vg_lite
+  #
+  src/draw/vg_lite/lv_draw_buf_vg_lite.c
+  src/draw/vg_lite/lv_draw_vg_lite.c
+  src/draw/vg_lite/lv_draw_vg_lite_arc.c
+  src/draw/vg_lite/lv_draw_vg_lite_border.c
+  src/draw/vg_lite/lv_draw_vg_lite_box_shadow.c
+  src/draw/vg_lite/lv_draw_vg_lite_fill.c
+  src/draw/vg_lite/lv_draw_vg_lite_img.c
+  src/draw/vg_lite/lv_draw_vg_lite_label.c
+  src/draw/vg_lite/lv_draw_vg_lite_layer.c
+  src/draw/vg_lite/lv_draw_vg_lite_line.c
+  src/draw/vg_lite/lv_draw_vg_lite_mask_rect.c
+  src/draw/vg_lite/lv_draw_vg_lite_triangle.c
+  src/draw/vg_lite/lv_draw_vg_lite_vector.c
+  src/draw/vg_lite/lv_vg_lite_decoder.c
+  src/draw/vg_lite/lv_vg_lite_grad.c
+  src/draw/vg_lite/lv_vg_lite_math.c
+  src/draw/vg_lite/lv_vg_lite_path.c
+  src/draw/vg_lite/lv_vg_lite_pending.c
+  src/draw/vg_lite/lv_vg_lite_stroke.c
+  src/draw/vg_lite/lv_vg_lite_utils.c
+  
+  #
+  # src/drivers
+  # 
+  
+  #
+  # src/drivers/display/drm
+  #
+  src/drivers/display/drm/lv_linux_drm.c
+  
+  #
+  # src/drivers/display/fb
+  #
+  src/drivers/display/fb/lv_linux_fbdev.c
+  
+  #
+  # src/drivers/display/ft81x
+  #
+  src/drivers/display/ft81x/lv_ft81x.c
+  
+  #
+  # src/drivers/display/ili9341
+  #
+  src/drivers/display/ili9341/lv_ili9341.c
+  
+  #
+  # src/drivers/display/lcd
+  #
+  src/drivers/display/lcd/lv_lcd_generic_mipi.c
+  
+  #
+  # src/drivers/display/renesas_glcdc
+  #
+  src/drivers/display/renesas_glcdc/lv_renesas_glcdc.c
+  
+  #
+  # src/drivers/display/st7735
+  #
+  src/drivers/display/st7735/lv_st7735.c
+  
+  #
+  # src/drivers/display/st7789
+  #
+  src/drivers/display/st7789/lv_st7789.c
+  
+  #
+  # src/drivers/display/st7796
+  #
+  src/drivers/display/st7796/lv_st7796.c
+  
+  #
+  # src/drivers/display/st_ltdc
+  #
+  src/drivers/display/st_ltdc/lv_st_ltdc.c
+  
+  #
+  # src/drivers/display/tft_espi
+  # 
+  
+  #
+  # src/drivers/evdev
+  #
+  src/drivers/evdev/lv_evdev.c
+  
+  #
+  # src/drivers/glfw
+  #
+  src/drivers/glfw/lv_glfw_window.c
+  src/drivers/glfw/lv_opengles_debug.c
+  src/drivers/glfw/lv_opengles_driver.c
+  src/drivers/glfw/lv_opengles_texture.c
+  
+  #
+  # src/drivers/libinput
+  #
+  src/drivers/libinput/lv_libinput.c
+  src/drivers/libinput/lv_xkb.c
+  
+  #
+  # src/drivers/nuttx
+  #
+  src/drivers/nuttx/lv_nuttx_cache.c
+  src/drivers/nuttx/lv_nuttx_entry.c
+  src/drivers/nuttx/lv_nuttx_fbdev.c
+  src/drivers/nuttx/lv_nuttx_image_cache.c
+  src/drivers/nuttx/lv_nuttx_lcd.c
+  src/drivers/nuttx/lv_nuttx_libuv.c
+  src/drivers/nuttx/lv_nuttx_profiler.c
+  src/drivers/nuttx/lv_nuttx_touchscreen.c
+  
+  #
+  # src/drivers/qnx
+  #
+  src/drivers/qnx/lv_qnx.c
+  
+  #
+  # src/drivers/sdl
+  #
+  src/drivers/sdl/lv_sdl_keyboard.c
+  src/drivers/sdl/lv_sdl_mouse.c
+  src/drivers/sdl/lv_sdl_mousewheel.c
+  src/drivers/sdl/lv_sdl_window.c
+  
+  #
+  # src/drivers/uefi
+  #
+  src/drivers/uefi/lv_uefi_context.c
+  src/drivers/uefi/lv_uefi_display.c
+  src/drivers/uefi/lv_uefi_indev_keyboard.c
+  src/drivers/uefi/lv_uefi_indev_pointer.c
+  src/drivers/uefi/lv_uefi_indev_touch.c
+  src/drivers/uefi/lv_uefi_private.c
+  
+  #
+  # src/drivers/wayland
+  #
+  src/drivers/wayland/lv_wayland.c
+  src/drivers/wayland/lv_wayland_smm.c
+  src/drivers/wayland/lv_wl_cache.c
+  src/drivers/wayland/lv_wl_dmabuf.c
+  src/drivers/wayland/lv_wl_keyboard.c
+  src/drivers/wayland/lv_wl_pointer.c
+  src/drivers/wayland/lv_wl_pointer_axis.c
+  src/drivers/wayland/lv_wl_seat.c
+  src/drivers/wayland/lv_wl_shell.c
+  src/drivers/wayland/lv_wl_shm.c
+  src/drivers/wayland/lv_wl_touch.c
+  src/drivers/wayland/lv_wl_window.c
+  src/drivers/wayland/lv_wl_window_decorations.c
+  src/drivers/wayland/lv_wl_xdg_shell.c
+  
+  #
+  # src/drivers/windows
+  #
+  src/drivers/windows/lv_windows_context.c
+  src/drivers/windows/lv_windows_display.c
+  src/drivers/windows/lv_windows_input.c
+  
+  #
+  # src/drivers/x11
+  #
+  src/drivers/x11/lv_x11_display.c
+  src/drivers/x11/lv_x11_input.c
+  
+  #
+  # src/font
+  #
+  src/font/lv_binfont_loader.c
+  src/font/lv_font.c
+  src/font/lv_font_dejavu_16_persian_hebrew.c
+  src/font/lv_font_fmt_txt.c
+  src/font/lv_font_montserrat_10.c
+  src/font/lv_font_montserrat_12.c
+  src/font/lv_font_montserrat_14.c
+  src/font/lv_font_montserrat_14_aligned.c
+  src/font/lv_font_montserrat_16.c
+  src/font/lv_font_montserrat_18.c
+  src/font/lv_font_montserrat_20.c
+  src/font/lv_font_montserrat_22.c
+  src/font/lv_font_montserrat_24.c
+  src/font/lv_font_montserrat_26.c
+  src/font/lv_font_montserrat_28.c
+  src/font/lv_font_montserrat_28_compressed.c
+  src/font/lv_font_montserrat_30.c
+  src/font/lv_font_montserrat_32.c
+  src/font/lv_font_montserrat_34.c
+  src/font/lv_font_montserrat_36.c
+  src/font/lv_font_montserrat_38.c
+  src/font/lv_font_montserrat_40.c
+  src/font/lv_font_montserrat_42.c
+  src/font/lv_font_montserrat_44.c
+  src/font/lv_font_montserrat_46.c
+  src/font/lv_font_montserrat_48.c
+  src/font/lv_font_montserrat_8.c
+  src/font/lv_font_simsun_14_cjk.c
+  src/font/lv_font_simsun_16_cjk.c
+  src/font/lv_font_source_han_sans_sc_14_cjk.c
+  src/font/lv_font_source_han_sans_sc_16_cjk.c
+  src/font/lv_font_unscii_16.c
+  src/font/lv_font_unscii_8.c
+  
+  #
+  # src/indev
+  #
+  src/indev/lv_indev.c
+  src/indev/lv_indev_gesture.c
+  src/indev/lv_indev_scroll.c
+  
+  #
+  # src/layouts
+  #
+  src/layouts/lv_layout.c
+  
+  #
+  # src/layouts/flex
+  #
+  src/layouts/flex/lv_flex.c
+  
+  #
+  # src/layouts/grid
+  #
+  src/layouts/grid/lv_grid.c
+  
+  #
+  # src/libs/barcode
+  #
+  src/libs/barcode/code128.c
+  src/libs/barcode/lv_barcode.c
+  
+  #
+  # src/libs/bin_decoder
+  #
+  src/libs/bin_decoder/lv_bin_decoder.c
+  
+  #
+  # src/libs/bmp
+  #
+  src/libs/bmp/lv_bmp.c
+  
+  #
+  # src/libs/expat
+  #
+  src/libs/expat/xmlparse.c
+  src/libs/expat/xmlrole.c
+  src/libs/expat/xmltok.c
+  src/libs/expat/xmltok_impl.c
+  src/libs/expat/xmltok_ns.c
+  
+  #
+  # src/libs/ffmpeg
+  #
+  src/libs/ffmpeg/lv_ffmpeg.c
+  
+  #
+  # src/libs/freetype
+  #
+  src/libs/freetype/lv_freetype.c
+  src/libs/freetype/lv_freetype_glyph.c
+  src/libs/freetype/lv_freetype_image.c
+  src/libs/freetype/lv_freetype_outline.c
+  src/libs/freetype/lv_ftsystem.c
+  
+  #
+  # src/libs/fsdrv
+  #
+  src/libs/fsdrv/lv_fs_cbfs.c
+  src/libs/fsdrv/lv_fs_fatfs.c
+  src/libs/fsdrv/lv_fs_littlefs.c
+  src/libs/fsdrv/lv_fs_memfs.c
+  src/libs/fsdrv/lv_fs_posix.c
+  src/libs/fsdrv/lv_fs_stdio.c
+  src/libs/fsdrv/lv_fs_uefi.c
+  src/libs/fsdrv/lv_fs_win32.c
+  
+  #
+  # src/libs/gif
+  #
+  src/libs/gif/gifdec.c
+  src/libs/gif/lv_gif.c
+  
+  #
+  # src/libs/libjpeg_turbo
+  #
+  src/libs/libjpeg_turbo/lv_libjpeg_turbo.c
+  
+  #
+  # src/libs/libpng
+  #
+  src/libs/libpng/lv_libpng.c
+  
+  #
+  # src/libs/lodepng
+  #
+  src/libs/lodepng/lodepng.c
+  src/libs/lodepng/lv_lodepng.c
+  
+  #
+  # src/libs/lz4
+  #
+  src/libs/lz4/lz4.c
+  
+  #
+  # src/libs/qrcode
+  #
+  src/libs/qrcode/lv_qrcode.c
+  src/libs/qrcode/qrcodegen.c
+  
+  #
+  # src/libs/rle
+  #
+  src/libs/rle/lv_rle.c
+  
+  #
+  # src/libs/rlottie
+  #
+  src/libs/rlottie/lv_rlottie.c
+  
+  #
+  # src/libs/svg
+  #
+  src/libs/svg/lv_svg.c
+  src/libs/svg/lv_svg_decoder.c
+  src/libs/svg/lv_svg_parser.c
+  src/libs/svg/lv_svg_render.c
+  src/libs/svg/lv_svg_token.c
+  
+  #
+  # src/libs/thorvg
+  # 
+  
+  #
+  # src/libs/thorvg/rapidjson
+  # 
+  
+  #
+  # src/libs/thorvg/rapidjson/error
+  # 
+  
+  #
+  # src/libs/thorvg/rapidjson/internal
+  # 
+  
+  #
+  # src/libs/thorvg/rapidjson/msinttypes
+  # 
+  
+  #
+  # src/libs/tiny_ttf
+  #
+  src/libs/tiny_ttf/lv_tiny_ttf.c
+  
+  #
+  # src/libs/tjpgd
+  #
+  src/libs/tjpgd/lv_tjpgd.c
+  src/libs/tjpgd/tjpgd.c
+  
+  #
+  # src/misc
+  #
+  src/misc/lv_anim.c
+  src/misc/lv_anim_timeline.c
+  src/misc/lv_area.c
+  src/misc/lv_array.c
+  src/misc/lv_async.c
+  src/misc/lv_bidi.c
+  src/misc/lv_circle_buf.c
+  src/misc/lv_color.c
+  src/misc/lv_color_op.c
+  src/misc/lv_event.c
+  src/misc/lv_fs.c
+  src/misc/lv_grad.c
+  src/misc/lv_iter.c
+  src/misc/lv_ll.c
+  src/misc/lv_log.c
+  src/misc/lv_lru.c
+  src/misc/lv_math.c
+  src/misc/lv_matrix.c
+  src/misc/lv_palette.c
+  src/misc/lv_profiler_builtin.c
+  src/misc/lv_rb.c
+  src/misc/lv_style.c
+  src/misc/lv_style_gen.c
+  src/misc/lv_templ.c
+  src/misc/lv_text.c
+  src/misc/lv_text_ap.c
+  src/misc/lv_timer.c
+  src/misc/lv_tree.c
+  src/misc/lv_utils.c
+  
+  #
+  # src/misc/cache
+  #
+  src/misc/cache/lv_cache.c
+  src/misc/cache/lv_cache_entry.c
+  
+  #
+  # src/misc/cache/class
+  #
+  src/misc/cache/class/lv_cache_lru_ll.c
+  src/misc/cache/class/lv_cache_lru_rb.c
+  
+  #
+  # src/misc/cache/instance
+  #
+  src/misc/cache/instance/lv_image_cache.c
+  src/misc/cache/instance/lv_image_header_cache.c
+  
+  #
+  # src/osal
+  #
+  src/osal/lv_cmsis_rtos2.c
+  src/osal/lv_freertos.c
+  src/osal/lv_linux.c
+  src/osal/lv_mqx.c
+  src/osal/lv_os.c
+  src/osal/lv_os_none.c
+  src/osal/lv_pthread.c
+  src/osal/lv_rtthread.c
+  src/osal/lv_sdl2.c
+  src/osal/lv_windows.c
+  
+  #
+  # src/others/file_explorer
+  #
+  src/others/file_explorer/lv_file_explorer.c
+  
+  #
+  # src/others/font_manager
+  #
+  src/others/font_manager/lv_font_manager.c
+  src/others/font_manager/lv_font_manager_recycle.c
+  
+  #
+  # src/others/fragment
+  #
+  src/others/fragment/lv_fragment.c
+  src/others/fragment/lv_fragment_manager.c
+  
+  #
+  # src/others/gridnav
+  #
+  src/others/gridnav/lv_gridnav.c
+  
+  #
+  # src/others/ime
+  #
+  src/others/ime/lv_ime_pinyin.c
+  
+  #
+  # src/others/imgfont
+  #
+  src/others/imgfont/lv_imgfont.c
+  
+  #
+  # src/others/monkey
+  #
+  src/others/monkey/lv_monkey.c
+  
+  #
+  # src/others/observer
+  #
+  src/others/observer/lv_observer.c
+  
+  #
+  # src/others/snapshot
+  #
+  src/others/snapshot/lv_snapshot.c
+  
+  #
+  # src/others/sysmon
+  #
+  src/others/sysmon/lv_sysmon.c
+  
+  #
+  # src/others/test
+  #
+  src/others/test/lv_test_display.c
+  src/others/test/lv_test_helpers.c
+  src/others/test/lv_test_indev.c
+  src/others/test/lv_test_indev_gesture.c
+  src/others/test/lv_test_screenshot_compare.c
+  
+  #
+  # src/others/vg_lite_tvg
+  #
+  src/others/vg_lite_tvg/vg_lite_matrix.c
+  
+  #
+  # src/others/xml
+  #
+  src/others/xml/lv_xml.c
+  src/others/xml/lv_xml_base_types.c
+  src/others/xml/lv_xml_component.c
+  src/others/xml/lv_xml_parser.c
+  src/others/xml/lv_xml_style.c
+  src/others/xml/lv_xml_update.c
+  src/others/xml/lv_xml_utils.c
+  src/others/xml/lv_xml_widget.c
+  
+  #
+  # src/others/xml/parsers
+  #
+  src/others/xml/parsers/lv_xml_arc_parser.c
+  src/others/xml/parsers/lv_xml_bar_parser.c
+  src/others/xml/parsers/lv_xml_buttonmatrix_parser.c
+  src/others/xml/parsers/lv_xml_button_parser.c
+  src/others/xml/parsers/lv_xml_calendar_parser.c
+  src/others/xml/parsers/lv_xml_canvas_parser.c
+  src/others/xml/parsers/lv_xml_chart_parser.c
+  src/others/xml/parsers/lv_xml_checkbox_parser.c
+  src/others/xml/parsers/lv_xml_dropdown_parser.c
+  src/others/xml/parsers/lv_xml_event_parser.c
+  src/others/xml/parsers/lv_xml_image_parser.c
+  src/others/xml/parsers/lv_xml_keyboard_parser.c
+  src/others/xml/parsers/lv_xml_label_parser.c
+  src/others/xml/parsers/lv_xml_obj_parser.c
+  src/others/xml/parsers/lv_xml_roller_parser.c
+  src/others/xml/parsers/lv_xml_scale_parser.c
+  src/others/xml/parsers/lv_xml_slider_parser.c
+  src/others/xml/parsers/lv_xml_spangroup_parser.c
+  src/others/xml/parsers/lv_xml_table_parser.c
+  src/others/xml/parsers/lv_xml_tabview_parser.c
+  src/others/xml/parsers/lv_xml_textarea_parser.c
+  
+  #
+  # src/stdlib
+  #
+  src/stdlib/lv_mem.c
+  
+  #
+  # src/stdlib/builtin
+  #
+  src/stdlib/builtin/lv_mem_core_builtin.c
+  src/stdlib/builtin/lv_sprintf_builtin.c
+  src/stdlib/builtin/lv_string_builtin.c
+  src/stdlib/builtin/lv_tlsf.c
+  
+  #
+  # src/stdlib/clib
+  #
+  src/stdlib/clib/lv_mem_core_clib.c
+  src/stdlib/clib/lv_sprintf_clib.c
+  src/stdlib/clib/lv_string_clib.c
+  
+  #
+  # src/stdlib/micropython
+  #
+  src/stdlib/micropython/lv_mem_core_micropython.c
+  
+  #
+  # src/stdlib/rtthread
+  #
+  src/stdlib/rtthread/lv_mem_core_rtthread.c
+  src/stdlib/rtthread/lv_sprintf_rtthread.c
+  src/stdlib/rtthread/lv_string_rtthread.c
+  
+  #
+  # src/stdlib/uefi
+  #
+  src/stdlib/uefi/lv_mem_core_uefi.c
+  
+  #
+  # src/themes
+  #
+  src/themes/lv_theme.c
+  
+  #
+  # src/themes/default
+  #
+  src/themes/default/lv_theme_default.c
+  
+  #
+  # src/themes/mono
+  #
+  src/themes/mono/lv_theme_mono.c
+  
+  #
+  # src/themes/simple
+  #
+  src/themes/simple/lv_theme_simple.c
+  
+  #
+  # src/tick
+  #
+  src/tick/lv_tick.c
+  
+  #
+  # src/widgets/3dtexture
+  #
+  src/widgets/3dtexture/lv_3dtexture.c
+  
+  #
+  # src/widgets/animimage
+  #
+  src/widgets/animimage/lv_animimage.c
+  
+  #
+  # src/widgets/arc
+  #
+  src/widgets/arc/lv_arc.c
+  
+  #
+  # src/widgets/arclabel
+  #
+  src/widgets/arclabel/lv_arclabel.c
+  
+  #
+  # src/widgets/bar
+  #
+  src/widgets/bar/lv_bar.c
+  
+  #
+  # src/widgets/button
+  #
+  src/widgets/button/lv_button.c
+  
+  #
+  # src/widgets/buttonmatrix
+  #
+  src/widgets/buttonmatrix/lv_buttonmatrix.c
+  
+  #
+  # src/widgets/calendar
+  #
+  src/widgets/calendar/lv_calendar.c
+  src/widgets/calendar/lv_calendar_chinese.c
+  src/widgets/calendar/lv_calendar_header_arrow.c
+  src/widgets/calendar/lv_calendar_header_dropdown.c
+  
+  #
+  # src/widgets/canvas
+  #
+  src/widgets/canvas/lv_canvas.c
+  
+  #
+  # src/widgets/chart
+  #
+  src/widgets/chart/lv_chart.c
+  
+  #
+  # src/widgets/checkbox
+  #
+  src/widgets/checkbox/lv_checkbox.c
+  
+  #
+  # src/widgets/dropdown
+  #
+  src/widgets/dropdown/lv_dropdown.c
+  
+  #
+  # src/widgets/image
+  #
+  src/widgets/image/lv_image.c
+  
+  #
+  # src/widgets/imagebutton
+  #
+  src/widgets/imagebutton/lv_imagebutton.c
+  
+  #
+  # src/widgets/keyboard
+  #
+  src/widgets/keyboard/lv_keyboard.c
+  
+  #
+  # src/widgets/label
+  #
+  src/widgets/label/lv_label.c
+  
+  #
+  # src/widgets/led
+  #
+  src/widgets/led/lv_led.c
+  
+  #
+  # src/widgets/line
+  #
+  src/widgets/line/lv_line.c
+  
+  #
+  # src/widgets/list
+  #
+  src/widgets/list/lv_list.c
+  
+  #
+  # src/widgets/lottie
+  #
+  src/widgets/lottie/lv_lottie.c
+  
+  #
+  # src/widgets/menu
+  #
+  src/widgets/menu/lv_menu.c
+  
+  #
+  # src/widgets/msgbox
+  #
+  src/widgets/msgbox/lv_msgbox.c
+  
+  #
+  # src/widgets/objx_templ
+  #
+  src/widgets/objx_templ/lv_objx_templ.c
+  
+  #
+  # src/widgets/property
+  #
+  src/widgets/property/lv_animimage_properties.c
+  src/widgets/property/lv_dropdown_properties.c
+  src/widgets/property/lv_image_properties.c
+  src/widgets/property/lv_keyboard_properties.c
+  src/widgets/property/lv_label_properties.c
+  src/widgets/property/lv_obj_properties.c
+  src/widgets/property/lv_roller_properties.c
+  src/widgets/property/lv_slider_properties.c
+  src/widgets/property/lv_style_properties.c
+  src/widgets/property/lv_textarea_properties.c
+  
+  #
+  # src/widgets/roller
+  #
+  src/widgets/roller/lv_roller.c
+  
+  #
+  # src/widgets/scale
+  #
+  src/widgets/scale/lv_scale.c
+  
+  #
+  # src/widgets/slider
+  #
+  src/widgets/slider/lv_slider.c
+  
+  #
+  # src/widgets/span
+  #
+  src/widgets/span/lv_span.c
+  
+  #
+  # src/widgets/spinbox
+  #
+  src/widgets/spinbox/lv_spinbox.c
+  
+  #
+  # src/widgets/spinner
+  #
+  src/widgets/spinner/lv_spinner.c
+  
+  #
+  # src/widgets/switch
+  #
+  src/widgets/switch/lv_switch.c
+  
+  #
+  # src/widgets/table
+  #
+  src/widgets/table/lv_table.c
+  
+  #
+  # src/widgets/tabview
+  #
+  src/widgets/tabview/lv_tabview.c
+  
+  #
+  # src/widgets/textarea
+  #
+  src/widgets/textarea/lv_textarea.c
+  
+  #
+  # src/widgets/tileview
+  #
+  src/widgets/tileview/lv_tileview.c
+  
+  #
+  # src/widgets/win
+  #
+  src/widgets/win/lv_win.c
+
+  # 
+  # demos 
+  # 
+  demos/lv_demos.c 
+  
+  # 
+  # demos/benchmark 
+  # 
+  demos/benchmark/lv_demo_benchmark.c 
+  
+  # 
+  # demos/benchmark/assets 
+  # 
+  demos/benchmark/assets/img_benchmark_avatar.c 
+  demos/benchmark/assets/img_benchmark_lvgl_logo_argb.c 
+  demos/benchmark/assets/img_benchmark_lvgl_logo_rgb.c 
+  demos/benchmark/assets/lv_font_benchmark_montserrat_12_aligned.c 
+  demos/benchmark/assets/lv_font_benchmark_montserrat_14_aligned.c 
+  demos/benchmark/assets/lv_font_benchmark_montserrat_16_aligned.c 
+  demos/benchmark/assets/lv_font_benchmark_montserrat_18_aligned.c 
+  demos/benchmark/assets/lv_font_benchmark_montserrat_20_aligned.c 
+  demos/benchmark/assets/lv_font_benchmark_montserrat_24_aligned.c 
+  demos/benchmark/assets/lv_font_benchmark_montserrat_26_aligned.c 
+  
+  # 
+  # demos/keypad_encoder 
+  # 
+  demos/keypad_encoder/lv_demo_keypad_encoder.c 
+  
+  # 
+  # demos/music 
+  # 
+  demos/music/lv_demo_music.c 
+  demos/music/lv_demo_music_list.c 
+  demos/music/lv_demo_music_main.c 
+  
+  # 
+  # demos/music/assets 
+  # 
+  demos/music/assets/img_lv_demo_music_btn_corner_large.c 
+  demos/music/assets/img_lv_demo_music_btn_list_pause.c 
+  demos/music/assets/img_lv_demo_music_btn_list_pause_large.c 
+  demos/music/assets/img_lv_demo_music_btn_list_play.c 
+  demos/music/assets/img_lv_demo_music_btn_list_play_large.c 
+  demos/music/assets/img_lv_demo_music_btn_loop.c 
+  demos/music/assets/img_lv_demo_music_btn_loop_large.c 
+  demos/music/assets/img_lv_demo_music_btn_next.c 
+  demos/music/assets/img_lv_demo_music_btn_next_large.c 
+  demos/music/assets/img_lv_demo_music_btn_pause.c 
+  demos/music/assets/img_lv_demo_music_btn_pause_large.c 
+  demos/music/assets/img_lv_demo_music_btn_play.c 
+  demos/music/assets/img_lv_demo_music_btn_play_large.c 
+  demos/music/assets/img_lv_demo_music_btn_prev.c 
+  demos/music/assets/img_lv_demo_music_btn_prev_large.c 
+  demos/music/assets/img_lv_demo_music_btn_rnd.c 
+  demos/music/assets/img_lv_demo_music_btn_rnd_large.c 
+  demos/music/assets/img_lv_demo_music_corner_left.c 
+  demos/music/assets/img_lv_demo_music_corner_left_large.c 
+  demos/music/assets/img_lv_demo_music_corner_right.c 
+  demos/music/assets/img_lv_demo_music_corner_right_large.c 
+  demos/music/assets/img_lv_demo_music_cover_1.c 
+  demos/music/assets/img_lv_demo_music_cover_1_large.c 
+  demos/music/assets/img_lv_demo_music_cover_2.c 
+  demos/music/assets/img_lv_demo_music_cover_2_large.c 
+  demos/music/assets/img_lv_demo_music_cover_3.c 
+  demos/music/assets/img_lv_demo_music_cover_3_large.c 
+  demos/music/assets/img_lv_demo_music_icon_1.c 
+  demos/music/assets/img_lv_demo_music_icon_1_large.c 
+  demos/music/assets/img_lv_demo_music_icon_2.c 
+  demos/music/assets/img_lv_demo_music_icon_2_large.c 
+  demos/music/assets/img_lv_demo_music_icon_3.c 
+  demos/music/assets/img_lv_demo_music_icon_3_large.c 
+  demos/music/assets/img_lv_demo_music_icon_4.c 
+  demos/music/assets/img_lv_demo_music_icon_4_large.c 
+  demos/music/assets/img_lv_demo_music_list_border.c 
+  demos/music/assets/img_lv_demo_music_list_border_large.c 
+  demos/music/assets/img_lv_demo_music_logo.c 
+  demos/music/assets/img_lv_demo_music_slider_knob.c 
+  demos/music/assets/img_lv_demo_music_slider_knob_large.c 
+  demos/music/assets/img_lv_demo_music_wave_bottom.c 
+  demos/music/assets/img_lv_demo_music_wave_bottom_large.c 
+  demos/music/assets/img_lv_demo_music_wave_top.c 
+  demos/music/assets/img_lv_demo_music_wave_top_large.c 
+  
+  # 
+  # demos/render 
+  # 
+  demos/render/lv_demo_render.c 
+  
+  # 
+  # demos/render/assets 
+  # 
+  demos/render/assets/img_render_arc_bg.c 
+  demos/render/assets/img_render_lvgl_logo_argb8888.c 
+  demos/render/assets/img_render_lvgl_logo_argb8888_premultiplied.c 
+  demos/render/assets/img_render_lvgl_logo_i1.c 
+  demos/render/assets/img_render_lvgl_logo_l8.c 
+  demos/render/assets/img_render_lvgl_logo_rgb565.c 
+  demos/render/assets/img_render_lvgl_logo_rgb565a8.c 
+  demos/render/assets/img_render_lvgl_logo_rgb565_swapped.c 
+  demos/render/assets/img_render_lvgl_logo_rgb888.c 
+  demos/render/assets/img_render_lvgl_logo_xrgb8888.c 
+  
+  # 
+  # demos/stress 
+  # 
+  demos/stress/lv_demo_stress.c 
+  
+  # 
+  # demos/vector_graphic 
+  # 
+  demos/vector_graphic/lv_demo_vector_graphic.c 
+  
+  # 
+  # demos/vector_graphic/assets 
+  # 
+  demos/vector_graphic/assets/img_demo_vector_avatar.c 
+  
+  # 
+  # demos/widgets 
+  # 
+  demos/widgets/lv_demo_widgets.c 
+  
+  # 
+  # demos/widgets/assets 
+  # 
+  demos/widgets/assets/img_clothes.c 
+  demos/widgets/assets/img_demo_widgets_avatar.c 
+  demos/widgets/assets/img_demo_widgets_needle.c 
+  demos/widgets/assets/img_lvgl_logo.c 
+ 
+  # 
+  # examples 
+  # 
+  
+  # 
+  # examples/anim 
+  # 
+  examples/anim/lv_example_anim_1.c 
+  examples/anim/lv_example_anim_2.c 
+  examples/anim/lv_example_anim_3.c 
+  examples/anim/lv_example_anim_4.c 
+  examples/anim/lv_example_anim_timeline_1.c 
+  
+  # 
+  # examples/assets 
+  # 
+  examples/assets/animimg001.c 
+  examples/assets/animimg002.c 
+  examples/assets/animimg003.c 
+  examples/assets/imgbtn_left.c 
+  examples/assets/imgbtn_mid.c 
+  examples/assets/imgbtn_right.c 
+  examples/assets/img_caret_down.c 
+  examples/assets/img_cogwheel_argb.c 
+  examples/assets/img_cogwheel_indexed16.c 
+  examples/assets/img_cogwheel_rgb.c 
+  examples/assets/img_hand.c 
+  examples/assets/img_skew_strip.c 
+  examples/assets/img_star.c 
+  examples/assets/img_svg_img.c 
+  
+  # 
+  # examples/assets/emoji 
+  # 
+  examples/assets/emoji/img_emoji_F617.c 
+  
+  # 
+  # examples/event 
+  # 
+  examples/event/lv_example_event_bubble.c 
+  examples/event/lv_example_event_button.c 
+  examples/event/lv_example_event_click.c 
+  examples/event/lv_example_event_draw.c 
+  examples/event/lv_example_event_streak.c 
+  
+  # 
+  # examples/get_started 
+  # 
+  examples/get_started/lv_example_get_started_1.c 
+  examples/get_started/lv_example_get_started_2.c 
+  examples/get_started/lv_example_get_started_3.c 
+  examples/get_started/lv_example_get_started_4.c 
+  
+  # 
+  # examples/grad 
+  # 
+  examples/grad/lv_example_grad_1.c 
+  examples/grad/lv_example_grad_2.c 
+  examples/grad/lv_example_grad_3.c 
+  examples/grad/lv_example_grad_4.c 
+  
+  # 
+  # examples/layouts 
+  # 
+  
+  # 
+  # examples/layouts/flex 
+  # 
+  examples/layouts/flex/lv_example_flex_1.c 
+  examples/layouts/flex/lv_example_flex_2.c 
+  examples/layouts/flex/lv_example_flex_3.c 
+  examples/layouts/flex/lv_example_flex_4.c 
+  examples/layouts/flex/lv_example_flex_5.c 
+  examples/layouts/flex/lv_example_flex_6.c 
+  
+  # 
+  # examples/layouts/grid 
+  # 
+  examples/layouts/grid/lv_example_grid_1.c 
+  examples/layouts/grid/lv_example_grid_2.c 
+  examples/layouts/grid/lv_example_grid_3.c 
+  examples/layouts/grid/lv_example_grid_4.c 
+  examples/layouts/grid/lv_example_grid_5.c 
+  examples/layouts/grid/lv_example_grid_6.c 
+  
+  # 
+  # examples/libs 
+  # 
+  
+  # 
+  # examples/libs/barcode 
+  # 
+  examples/libs/barcode/lv_example_barcode_1.c 
+  
+  # 
+  # examples/libs/bmp 
+  # 
+  examples/libs/bmp/lv_example_bmp_1.c 
+  
+  # 
+  # examples/libs/ffmpeg 
+  # 
+  examples/libs/ffmpeg/lv_example_ffmpeg_1.c 
+  examples/libs/ffmpeg/lv_example_ffmpeg_2.c 
+  
+  # 
+  # examples/libs/freetype 
+  # 
+  examples/libs/freetype/lv_example_freetype_1.c 
+  examples/libs/freetype/lv_example_freetype_2.c 
+  examples/libs/freetype/lv_example_freetype_3.c 
+  
+  # 
+  # examples/libs/gif 
+  # 
+  examples/libs/gif/img_bulb_gif.c 
+  examples/libs/gif/lv_example_gif_1.c 
+  
+  # 
+  # examples/libs/libjpeg_turbo 
+  # 
+  examples/libs/libjpeg_turbo/lv_example_libjpeg_turbo_1.c 
+  
+  # 
+  # examples/libs/libpng 
+  # 
+  examples/libs/libpng/img_png_demo.c 
+  examples/libs/libpng/lv_example_libpng_1.c 
+  
+  # 
+  # examples/libs/lodepng 
+  # 
+  examples/libs/lodepng/img_wink_png.c 
+  examples/libs/lodepng/lv_example_lodepng_1.c 
+  
+  # 
+  # examples/libs/qrcode 
+  # 
+  examples/libs/qrcode/lv_example_qrcode_1.c 
+  
+  # 
+  # examples/libs/rlottie 
+  # 
+  examples/libs/rlottie/lv_example_rlottie_1.c 
+  examples/libs/rlottie/lv_example_rlottie_2.c 
+  examples/libs/rlottie/lv_example_rlottie_approve.c 
+  
+  # 
+  # examples/libs/svg 
+  # 
+  examples/libs/svg/lv_example_svg_1.c 
+  
+  # 
+  # examples/libs/tiny_ttf 
+  # 
+  examples/libs/tiny_ttf/lv_example_tiny_ttf_1.c 
+  examples/libs/tiny_ttf/lv_example_tiny_ttf_2.c 
+  examples/libs/tiny_ttf/lv_example_tiny_ttf_3.c 
+  examples/libs/tiny_ttf/ubuntu_font.c 
+  
+  # 
+  # examples/libs/tjpgd 
+  # 
+  examples/libs/tjpgd/lv_example_tjpgd_1.c 
+  
+  # 
+  # examples/others 
+  # 
+  
+  # 
+  # examples/others/file_explorer 
+  # 
+  examples/others/file_explorer/lv_example_file_explorer_1.c 
+  examples/others/file_explorer/lv_example_file_explorer_2.c 
+  examples/others/file_explorer/lv_example_file_explorer_3.c 
+  
+  # 
+  # examples/others/font_manager 
+  # 
+  examples/others/font_manager/lv_example_font_manager_1.c 
+  examples/others/font_manager/lv_example_font_manager_2.c 
+  examples/others/font_manager/lv_example_font_manager_3.c 
+  
+  # 
+  # examples/others/fragment 
+  # 
+  examples/others/fragment/lv_example_fragment_1.c 
+  examples/others/fragment/lv_example_fragment_2.c 
+  
+  # 
+  # examples/others/gestures 
+  # 
+  examples/others/gestures/lv_example_gestures.c 
+  
+  # 
+  # examples/others/gridnav 
+  # 
+  examples/others/gridnav/lv_example_gridnav_1.c 
+  examples/others/gridnav/lv_example_gridnav_2.c 
+  examples/others/gridnav/lv_example_gridnav_3.c 
+  examples/others/gridnav/lv_example_gridnav_4.c 
+  examples/others/gridnav/lv_example_gridnav_5.c 
+  
+  # 
+  # examples/others/ime 
+  # 
+  examples/others/ime/lv_example_ime_pinyin_1.c 
+  examples/others/ime/lv_example_ime_pinyin_2.c 
+  
+  # 
+  # examples/others/imgfont 
+  # 
+  examples/others/imgfont/lv_example_imgfont_1.c 
+  
+  # 
+  # examples/others/monkey 
+  # 
+  examples/others/monkey/lv_example_monkey_1.c 
+  examples/others/monkey/lv_example_monkey_2.c 
+  examples/others/monkey/lv_example_monkey_3.c 
+  
+  # 
+  # examples/others/observer 
+  # 
+  examples/others/observer/lv_example_observer_1.c 
+  examples/others/observer/lv_example_observer_2.c 
+  examples/others/observer/lv_example_observer_3.c 
+  examples/others/observer/lv_example_observer_4.c 
+  examples/others/observer/lv_example_observer_5.c 
+  examples/others/observer/lv_example_observer_6.c 
+  
+  # 
+  # examples/others/snapshot 
+  # 
+  examples/others/snapshot/lv_example_snapshot_1.c 
+  
+  # 
+  # examples/others/xml 
+  # 
+  examples/others/xml/lv_example_xml_1.c 
+  examples/others/xml/lv_example_xml_2.c 
+  
+  # 
+  # examples/porting 
+  # 
+  examples/porting/lv_port_disp_template.c 
+  examples/porting/lv_port_fs_template.c 
+  examples/porting/lv_port_indev_template.c 
+  examples/porting/lv_port_lcd_stm32_template.c 
+  
+  # 
+  # examples/porting/osal 
+  # 
+  examples/porting/osal/lv_example_osal.c 
+  
+  # 
+  # examples/scroll 
+  # 
+  examples/scroll/lv_example_scroll_1.c 
+  examples/scroll/lv_example_scroll_2.c 
+  examples/scroll/lv_example_scroll_3.c 
+  examples/scroll/lv_example_scroll_4.c 
+  examples/scroll/lv_example_scroll_5.c 
+  examples/scroll/lv_example_scroll_6.c 
+  examples/scroll/lv_example_scroll_7.c 
+  examples/scroll/lv_example_scroll_8.c 
+  
+  # 
+  # examples/styles 
+  # 
+  examples/styles/lv_example_style_1.c 
+  examples/styles/lv_example_style_10.c 
+  examples/styles/lv_example_style_11.c 
+  examples/styles/lv_example_style_12.c 
+  examples/styles/lv_example_style_13.c 
+  examples/styles/lv_example_style_14.c 
+  examples/styles/lv_example_style_15.c 
+  examples/styles/lv_example_style_16.c 
+  examples/styles/lv_example_style_17.c 
+  examples/styles/lv_example_style_18.c 
+  examples/styles/lv_example_style_19.c 
+  examples/styles/lv_example_style_2.c 
+  examples/styles/lv_example_style_3.c 
+  examples/styles/lv_example_style_4.c 
+  examples/styles/lv_example_style_5.c 
+  examples/styles/lv_example_style_6.c 
+  examples/styles/lv_example_style_7.c 
+  examples/styles/lv_example_style_8.c 
+  examples/styles/lv_example_style_9.c 
+  
+  # 
+  # examples/widgets 
+  # 
+  
+  # 
+  # examples/widgets/animimg 
+  # 
+  examples/widgets/animimg/lv_example_animimg_1.c 
+  
+  # 
+  # examples/widgets/arc 
+  # 
+  examples/widgets/arc/lv_example_arc_1.c 
+  examples/widgets/arc/lv_example_arc_2.c 
+  examples/widgets/arc/lv_example_arc_3.c 
+  
+  # 
+  # examples/widgets/arclabel 
+  # 
+  examples/widgets/arclabel/lv_example_arclabel_1.c 
+  
+  # 
+  # examples/widgets/bar 
+  # 
+  examples/widgets/bar/lv_example_bar_1.c 
+  examples/widgets/bar/lv_example_bar_2.c 
+  examples/widgets/bar/lv_example_bar_3.c 
+  examples/widgets/bar/lv_example_bar_4.c 
+  examples/widgets/bar/lv_example_bar_5.c 
+  examples/widgets/bar/lv_example_bar_6.c 
+  examples/widgets/bar/lv_example_bar_7.c 
+  
+  # 
+  # examples/widgets/button 
+  # 
+  examples/widgets/button/lv_example_button_1.c 
+  examples/widgets/button/lv_example_button_2.c 
+  examples/widgets/button/lv_example_button_3.c 
+  
+  # 
+  # examples/widgets/buttonmatrix 
+  # 
+  examples/widgets/buttonmatrix/lv_example_buttonmatrix_1.c 
+  examples/widgets/buttonmatrix/lv_example_buttonmatrix_2.c 
+  examples/widgets/buttonmatrix/lv_example_buttonmatrix_3.c 
+  
+  # 
+  # examples/widgets/calendar 
+  # 
+  examples/widgets/calendar/lv_example_calendar_1.c 
+  examples/widgets/calendar/lv_example_calendar_2.c 
+  
+  # 
+  # examples/widgets/canvas 
+  # 
+  examples/widgets/canvas/lv_example_canvas_1.c 
+  examples/widgets/canvas/lv_example_canvas_10.c 
+  examples/widgets/canvas/lv_example_canvas_11.c 
+  examples/widgets/canvas/lv_example_canvas_2.c 
+  examples/widgets/canvas/lv_example_canvas_3.c 
+  examples/widgets/canvas/lv_example_canvas_4.c 
+  examples/widgets/canvas/lv_example_canvas_5.c 
+  examples/widgets/canvas/lv_example_canvas_6.c 
+  examples/widgets/canvas/lv_example_canvas_7.c 
+  examples/widgets/canvas/lv_example_canvas_8.c 
+  examples/widgets/canvas/lv_example_canvas_9.c 
+  
+  # 
+  # examples/widgets/chart 
+  # 
+  examples/widgets/chart/lv_example_chart_1.c 
+  examples/widgets/chart/lv_example_chart_2.c 
+  examples/widgets/chart/lv_example_chart_3.c 
+  examples/widgets/chart/lv_example_chart_4.c 
+  examples/widgets/chart/lv_example_chart_5.c 
+  examples/widgets/chart/lv_example_chart_6.c 
+  examples/widgets/chart/lv_example_chart_7.c 
+  examples/widgets/chart/lv_example_chart_8.c 
+  
+  # 
+  # examples/widgets/checkbox 
+  # 
+  examples/widgets/checkbox/lv_example_checkbox_1.c 
+  examples/widgets/checkbox/lv_example_checkbox_2.c 
+  
+  # 
+  # examples/widgets/dropdown 
+  # 
+  examples/widgets/dropdown/lv_example_dropdown_1.c 
+  examples/widgets/dropdown/lv_example_dropdown_2.c 
+  examples/widgets/dropdown/lv_example_dropdown_3.c 
+  
+  # 
+  # examples/widgets/image 
+  # 
+  examples/widgets/image/lv_example_image_1.c 
+  examples/widgets/image/lv_example_image_2.c 
+  examples/widgets/image/lv_example_image_3.c 
+  examples/widgets/image/lv_example_image_4.c 
+  examples/widgets/image/lv_example_image_5.c 
+  
+  # 
+  # examples/widgets/imagebutton 
+  # 
+  examples/widgets/imagebutton/lv_example_imagebutton_1.c 
+  
+  # 
+  # examples/widgets/keyboard 
+  # 
+  examples/widgets/keyboard/lv_example_keyboard_1.c 
+  examples/widgets/keyboard/lv_example_keyboard_2.c 
+  examples/widgets/keyboard/lv_example_keyboard_3.c 
+  
+  # 
+  # examples/widgets/label 
+  # 
+  examples/widgets/label/lv_example_label_1.c 
+  examples/widgets/label/lv_example_label_2.c 
+  examples/widgets/label/lv_example_label_3.c 
+  examples/widgets/label/lv_example_label_4.c 
+  examples/widgets/label/lv_example_label_5.c 
+  examples/widgets/label/lv_example_label_6.c 
+  
+  # 
+  # examples/widgets/led 
+  # 
+  examples/widgets/led/lv_example_led_1.c 
+  
+  # 
+  # examples/widgets/line 
+  # 
+  examples/widgets/line/lv_example_line_1.c 
+  
+  # 
+  # examples/widgets/list 
+  # 
+  examples/widgets/list/lv_example_list_1.c 
+  examples/widgets/list/lv_example_list_2.c 
+  
+  # 
+  # examples/widgets/lottie 
+  # 
+  examples/widgets/lottie/lv_example_lottie_1.c 
+  examples/widgets/lottie/lv_example_lottie_2.c 
+  examples/widgets/lottie/lv_example_lottie_approve.c 
+  
+  # 
+  # examples/widgets/menu 
+  # 
+  examples/widgets/menu/lv_example_menu_1.c 
+  examples/widgets/menu/lv_example_menu_2.c 
+  examples/widgets/menu/lv_example_menu_3.c 
+  examples/widgets/menu/lv_example_menu_4.c 
+  examples/widgets/menu/lv_example_menu_5.c 
+  
+  # 
+  # examples/widgets/msgbox 
+  # 
+  examples/widgets/msgbox/lv_example_msgbox_1.c 
+  examples/widgets/msgbox/lv_example_msgbox_2.c 
+  
+  # 
+  # examples/widgets/obj 
+  # 
+  examples/widgets/obj/lv_example_obj_1.c 
+  examples/widgets/obj/lv_example_obj_2.c 
+  examples/widgets/obj/lv_example_obj_3.c 
+  
+  # 
+  # examples/widgets/roller 
+  # 
+  examples/widgets/roller/lv_example_roller_1.c 
+  examples/widgets/roller/lv_example_roller_2.c 
+  examples/widgets/roller/lv_example_roller_3.c 
+  
+  # 
+  # examples/widgets/scale 
+  # 
+  examples/widgets/scale/lv_example_scale_1.c 
+  examples/widgets/scale/lv_example_scale_10.c 
+  examples/widgets/scale/lv_example_scale_11.c 
+  examples/widgets/scale/lv_example_scale_2.c 
+  examples/widgets/scale/lv_example_scale_3.c 
+  examples/widgets/scale/lv_example_scale_4.c 
+  examples/widgets/scale/lv_example_scale_5.c 
+  examples/widgets/scale/lv_example_scale_6.c 
+  examples/widgets/scale/lv_example_scale_7.c 
+  examples/widgets/scale/lv_example_scale_8.c 
+  examples/widgets/scale/lv_example_scale_9.c 
+  
+  # 
+  # examples/widgets/slider 
+  # 
+  examples/widgets/slider/lv_example_slider_1.c 
+  examples/widgets/slider/lv_example_slider_2.c 
+  examples/widgets/slider/lv_example_slider_3.c 
+  examples/widgets/slider/lv_example_slider_4.c 
+  
+  # 
+  # examples/widgets/span 
+  # 
+  examples/widgets/span/lv_example_span_1.c 
+  
+  # 
+  # examples/widgets/spinbox 
+  # 
+  examples/widgets/spinbox/lv_example_spinbox_1.c 
+  
+  # 
+  # examples/widgets/spinner 
+  # 
+  examples/widgets/spinner/lv_example_spinner_1.c 
+  
+  # 
+  # examples/widgets/switch 
+  # 
+  examples/widgets/switch/lv_example_switch_1.c 
+  examples/widgets/switch/lv_example_switch_2.c 
+  
+  # 
+  # examples/widgets/table 
+  # 
+  examples/widgets/table/lv_example_table_1.c 
+  examples/widgets/table/lv_example_table_2.c 
+  
+  # 
+  # examples/widgets/tabview 
+  # 
+  examples/widgets/tabview/lv_example_tabview_1.c 
+  examples/widgets/tabview/lv_example_tabview_2.c 
+  
+  # 
+  # examples/widgets/textarea 
+  # 
+  examples/widgets/textarea/lv_example_textarea_1.c 
+  examples/widgets/textarea/lv_example_textarea_2.c 
+  examples/widgets/textarea/lv_example_textarea_3.c 
+  examples/widgets/textarea/lv_example_textarea_4.c 
+  
+  # 
+  # examples/widgets/tileview 
+  # 
+  examples/widgets/tileview/lv_example_tileview_1.c 
+  
+  # 
+  # examples/widgets/win 
+  # 
+  examples/widgets/win/lv_example_win_1.c 
+
+[Packages]
+  StdLib/StdLib.dec
+  MdePkg/MdePkg.dec
+  ShellPkg/ShellPkg.dec
+  MdeModulePkg/MdeModulePkg.dec
+
+[LibraryClasses]
+  DevShell                    # edk2-libc/StdLib/StdLib.inc
+  LibC                        # edk2-libc/StdLib/StdLib.inc
+  LibStdio                    # edk2-libc/StdLib/StdLib.inc
+  LibMath                     # edk2-libc/StdLib/StdLib.inc
+  BaseMemoryLib               # MdePkg/MdePkg.dec
+  DebugLib                    # MdePkg/MdePkg.dec
+  PrintLib                    # MdePkg/MdePkg.dec
+  MemoryAllocationLib         # MdePkg/MdePkg.dec
+  UefiApplicationEntryPoint   # MdePkg/MdePkg.dec
+  UefiRuntimeServicesTableLib # MdePkg/MdePkg.dec
+  UefiBootServicesTableLib    # MdePkg/MdePkg.dec
+  UefiLib                     # MdePkg/MdePkg.dec
+  ShellCEntryLib              # ShellPkg/ShellPkg.dec
+  ShellLib                    # ShellPkg/ShellPkg.dec
+
+[BuildOptions]
+  #
+  # Disables the following Visual Studio compiler warnings brought by openssl source,
+  # so we do not break the build with /WX option:
+  #   C4819: The file contains a character that cannot be represented in the current code page
+  #   C4702: unreachable code
+  #   C4431: Missing type specifier - int assumed
+  #   C4389: 'operator' : signed/unsigned mismatch
+  #   C4267: conversion from 'size_t' to smaller type, possible loss of data
+  #   C4245: conversion between signed/unsigned integral types
+  #   C4244: conversion from larger type to smaller type, possible loss of data
+  #   C4218: nonstandard extension used: must specify at least one field
+  #   C4189: 
+  #   C4117: macro name redefined (common in conditional includes)
+  #   C4133: incompatible pointer types
+  #   C4067: unexpected tokens after preprocessor directive
+  #   C4047:
+  #   C4018: signed/unsigned mismatch in loop conditions
+  #   C4013: undefined function assuming extern returning int
+  #
+  # Additional compiler options:
+  #   /D UEFI_C_SOURCE: Defines macro for UEFI environment compilation
+  #   /TC: Treat all files as C source code
+  #   /std:c11: Enable C11 language standard support
+  #
+  # Note: These warning disables apply only to third-party source modules.
+  #       All EDK2 native code must compile cleanly with all warnings enabled.
+  MSFT:*_*_*_CC_FLAGS = /D UEFI_C_SOURCE /TC /std:c11 /wd4819 /wd4702 /wd4431 /wd4389 /wd4267 /wd4245 /wd4244 /wd4218 /wd4189 /wd4117 /wd4133 /wd4067 /wd4047 /wd4018 /wd4013

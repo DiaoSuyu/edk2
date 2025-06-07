@@ -1,0 +1,2220 @@
+
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\ 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\lvgl - 副本.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\lvgl.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\lvgl.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\lv_conf.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\lv_version.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\lv_demos.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\lv_demos.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\benchmark 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\benchmark\lv_demo_benchmark.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\benchmark\lv_demo_benchmark.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\benchmark\assets 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\benchmark\assets\img_benchmark_avatar.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\benchmark\assets\img_benchmark_lvgl_logo_argb.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\benchmark\assets\img_benchmark_lvgl_logo_rgb.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\benchmark\assets\lv_font_benchmark_montserrat_12_aligned.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\benchmark\assets\lv_font_benchmark_montserrat_14_aligned.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\benchmark\assets\lv_font_benchmark_montserrat_16_aligned.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\benchmark\assets\lv_font_benchmark_montserrat_18_aligned.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\benchmark\assets\lv_font_benchmark_montserrat_20_aligned.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\benchmark\assets\lv_font_benchmark_montserrat_24_aligned.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\benchmark\assets\lv_font_benchmark_montserrat_26_aligned.c 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\keypad_encoder 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\keypad_encoder\lv_demo_keypad_encoder.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\keypad_encoder\lv_demo_keypad_encoder.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\music 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\music\lv_demo_music.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\music\lv_demo_music_list.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\music\lv_demo_music_main.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\music\lv_demo_music.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\music\lv_demo_music_list.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\music\lv_demo_music_main.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\music\assets 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\music\assets\img_lv_demo_music_btn_corner_large.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\music\assets\img_lv_demo_music_btn_list_pause.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\music\assets\img_lv_demo_music_btn_list_pause_large.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\music\assets\img_lv_demo_music_btn_list_play.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\music\assets\img_lv_demo_music_btn_list_play_large.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\music\assets\img_lv_demo_music_btn_loop.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\music\assets\img_lv_demo_music_btn_loop_large.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\music\assets\img_lv_demo_music_btn_next.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\music\assets\img_lv_demo_music_btn_next_large.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\music\assets\img_lv_demo_music_btn_pause.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\music\assets\img_lv_demo_music_btn_pause_large.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\music\assets\img_lv_demo_music_btn_play.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\music\assets\img_lv_demo_music_btn_play_large.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\music\assets\img_lv_demo_music_btn_prev.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\music\assets\img_lv_demo_music_btn_prev_large.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\music\assets\img_lv_demo_music_btn_rnd.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\music\assets\img_lv_demo_music_btn_rnd_large.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\music\assets\img_lv_demo_music_corner_left.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\music\assets\img_lv_demo_music_corner_left_large.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\music\assets\img_lv_demo_music_corner_right.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\music\assets\img_lv_demo_music_corner_right_large.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\music\assets\img_lv_demo_music_cover_1.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\music\assets\img_lv_demo_music_cover_1_large.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\music\assets\img_lv_demo_music_cover_2.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\music\assets\img_lv_demo_music_cover_2_large.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\music\assets\img_lv_demo_music_cover_3.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\music\assets\img_lv_demo_music_cover_3_large.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\music\assets\img_lv_demo_music_icon_1.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\music\assets\img_lv_demo_music_icon_1_large.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\music\assets\img_lv_demo_music_icon_2.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\music\assets\img_lv_demo_music_icon_2_large.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\music\assets\img_lv_demo_music_icon_3.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\music\assets\img_lv_demo_music_icon_3_large.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\music\assets\img_lv_demo_music_icon_4.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\music\assets\img_lv_demo_music_icon_4_large.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\music\assets\img_lv_demo_music_list_border.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\music\assets\img_lv_demo_music_list_border_large.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\music\assets\img_lv_demo_music_logo.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\music\assets\img_lv_demo_music_slider_knob.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\music\assets\img_lv_demo_music_slider_knob_large.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\music\assets\img_lv_demo_music_wave_bottom.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\music\assets\img_lv_demo_music_wave_bottom_large.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\music\assets\img_lv_demo_music_wave_top.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\music\assets\img_lv_demo_music_wave_top_large.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\music\assets\spectrum_1.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\music\assets\spectrum_2.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\music\assets\spectrum_3.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\render 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\render\lv_demo_render.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\render\lv_demo_render.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\render\assets 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\render\assets\img_render_arc_bg.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\render\assets\img_render_lvgl_logo_argb8888.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\render\assets\img_render_lvgl_logo_argb8888_premultiplied.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\render\assets\img_render_lvgl_logo_i1.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\render\assets\img_render_lvgl_logo_l8.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\render\assets\img_render_lvgl_logo_rgb565.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\render\assets\img_render_lvgl_logo_rgb565a8.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\render\assets\img_render_lvgl_logo_rgb565_swapped.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\render\assets\img_render_lvgl_logo_rgb888.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\render\assets\img_render_lvgl_logo_xrgb8888.c 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\stress 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\stress\lv_demo_stress.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\stress\lv_demo_stress.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\vector_graphic 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\vector_graphic\lv_demo_vector_graphic.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\vector_graphic\lv_demo_vector_graphic.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\vector_graphic\assets 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\vector_graphic\assets\img_demo_vector_avatar.c 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\widgets 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\widgets\lv_demo_widgets.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\widgets\lv_demo_widgets.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\widgets\assets 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\widgets\assets\img_clothes.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\widgets\assets\img_demo_widgets_avatar.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\widgets\assets\img_demo_widgets_needle.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\demos\widgets\assets\img_lvgl_logo.c 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\lv_examples.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\anim 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\anim\lv_example_anim_1.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\anim\lv_example_anim_2.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\anim\lv_example_anim_3.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\anim\lv_example_anim_4.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\anim\lv_example_anim_timeline_1.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\anim\lv_example_anim.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\assets 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\assets\animimg001.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\assets\animimg002.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\assets\animimg003.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\assets\imgbtn_left.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\assets\imgbtn_mid.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\assets\imgbtn_right.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\assets\img_caret_down.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\assets\img_cogwheel_argb.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\assets\img_cogwheel_indexed16.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\assets\img_cogwheel_rgb.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\assets\img_hand.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\assets\img_skew_strip.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\assets\img_star.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\assets\img_svg_img.c 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\assets\emoji 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\assets\emoji\img_emoji_F617.c 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\event 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\event\lv_example_event_bubble.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\event\lv_example_event_button.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\event\lv_example_event_click.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\event\lv_example_event_draw.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\event\lv_example_event_streak.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\event\lv_example_event.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\get_started 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\get_started\lv_example_get_started_1.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\get_started\lv_example_get_started_2.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\get_started\lv_example_get_started_3.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\get_started\lv_example_get_started_4.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\get_started\lv_example_get_started.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\grad 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\grad\lv_example_grad_1.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\grad\lv_example_grad_2.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\grad\lv_example_grad_3.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\grad\lv_example_grad_4.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\grad\lv_example_grad.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\layouts 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\layouts\lv_example_layout.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\layouts\flex 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\layouts\flex\lv_example_flex_1.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\layouts\flex\lv_example_flex_2.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\layouts\flex\lv_example_flex_3.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\layouts\flex\lv_example_flex_4.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\layouts\flex\lv_example_flex_5.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\layouts\flex\lv_example_flex_6.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\layouts\flex\lv_example_flex.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\layouts\grid 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\layouts\grid\lv_example_grid_1.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\layouts\grid\lv_example_grid_2.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\layouts\grid\lv_example_grid_3.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\layouts\grid\lv_example_grid_4.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\layouts\grid\lv_example_grid_5.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\layouts\grid\lv_example_grid_6.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\layouts\grid\lv_example_grid.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\libs 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\libs\lv_example_libs.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\libs\barcode 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\libs\barcode\lv_example_barcode_1.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\libs\barcode\lv_example_barcode.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\libs\bmp 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\libs\bmp\lv_example_bmp_1.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\libs\bmp\lv_example_bmp.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\libs\ffmpeg 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\libs\ffmpeg\lv_example_ffmpeg_1.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\libs\ffmpeg\lv_example_ffmpeg_2.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\libs\ffmpeg\lv_example_ffmpeg.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\libs\freetype 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\libs\freetype\lv_example_freetype_1.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\libs\freetype\lv_example_freetype_2.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\libs\freetype\lv_example_freetype_3.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\libs\freetype\lv_example_freetype.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\libs\gif 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\libs\gif\img_bulb_gif.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\libs\gif\lv_example_gif_1.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\libs\gif\lv_example_gif.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\libs\libjpeg_turbo 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\libs\libjpeg_turbo\lv_example_libjpeg_turbo_1.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\libs\libjpeg_turbo\lv_example_libjpeg_turbo.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\libs\libpng 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\libs\libpng\img_png_demo.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\libs\libpng\lv_example_libpng_1.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\libs\libpng\lv_example_libpng.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\libs\lodepng 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\libs\lodepng\img_wink_png.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\libs\lodepng\lv_example_lodepng_1.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\libs\lodepng\lv_example_lodepng.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\libs\qrcode 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\libs\qrcode\lv_example_qrcode_1.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\libs\qrcode\lv_example_qrcode.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\libs\rlottie 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\libs\rlottie\lv_example_rlottie_1.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\libs\rlottie\lv_example_rlottie_2.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\libs\rlottie\lv_example_rlottie_approve.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\libs\rlottie\lv_example_rlottie.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\libs\svg 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\libs\svg\lv_example_svg_1.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\libs\svg\lv_example_svg.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\libs\tiny_ttf 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\libs\tiny_ttf\lv_example_tiny_ttf_1.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\libs\tiny_ttf\lv_example_tiny_ttf_2.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\libs\tiny_ttf\lv_example_tiny_ttf_3.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\libs\tiny_ttf\ubuntu_font.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\libs\tiny_ttf\lv_example_tiny_ttf.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\libs\tjpgd 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\libs\tjpgd\lv_example_tjpgd_1.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\libs\tjpgd\lv_example_tjpgd.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\others 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\others\lv_example_others.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\others\file_explorer 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\others\file_explorer\lv_example_file_explorer_1.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\others\file_explorer\lv_example_file_explorer_2.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\others\file_explorer\lv_example_file_explorer_3.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\others\file_explorer\lv_example_file_explorer.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\others\font_manager 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\others\font_manager\lv_example_font_manager_1.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\others\font_manager\lv_example_font_manager_2.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\others\font_manager\lv_example_font_manager_3.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\others\font_manager\lv_example_font_manager.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\others\fragment 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\others\fragment\lv_example_fragment_1.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\others\fragment\lv_example_fragment_2.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\others\fragment\lv_example_fragment.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\others\gestures 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\others\gestures\lv_example_gestures.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\others\gestures\lv_example_gestures.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\others\gridnav 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\others\gridnav\lv_example_gridnav_1.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\others\gridnav\lv_example_gridnav_2.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\others\gridnav\lv_example_gridnav_3.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\others\gridnav\lv_example_gridnav_4.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\others\gridnav\lv_example_gridnav_5.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\others\gridnav\lv_example_gridnav.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\others\ime 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\others\ime\lv_example_ime_pinyin_1.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\others\ime\lv_example_ime_pinyin_2.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\others\ime\lv_example_ime_pinyin.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\others\imgfont 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\others\imgfont\lv_example_imgfont_1.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\others\imgfont\lv_example_imgfont.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\others\monkey 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\others\monkey\lv_example_monkey_1.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\others\monkey\lv_example_monkey_2.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\others\monkey\lv_example_monkey_3.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\others\monkey\lv_example_monkey.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\others\observer 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\others\observer\lv_example_observer_1.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\others\observer\lv_example_observer_2.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\others\observer\lv_example_observer_3.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\others\observer\lv_example_observer_4.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\others\observer\lv_example_observer_5.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\others\observer\lv_example_observer_6.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\others\observer\lv_example_observer.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\others\snapshot 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\others\snapshot\lv_example_snapshot_1.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\others\snapshot\lv_example_snapshot.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\others\xml 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\others\xml\lv_example_xml_1.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\others\xml\lv_example_xml_2.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\others\xml\lv_example_xml.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\porting 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\porting\lv_port_disp_template.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\porting\lv_port_fs_template.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\porting\lv_port_indev_template.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\porting\lv_port_lcd_stm32_template.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\porting\lv_port_disp_template.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\porting\lv_port_fs_template.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\porting\lv_port_indev_template.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\porting\lv_port_lcd_stm32_template.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\porting\osal 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\porting\osal\lv_example_osal.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\porting\osal\lv_example_osal.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\scroll 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\scroll\lv_example_scroll_1.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\scroll\lv_example_scroll_2.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\scroll\lv_example_scroll_3.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\scroll\lv_example_scroll_4.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\scroll\lv_example_scroll_5.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\scroll\lv_example_scroll_6.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\scroll\lv_example_scroll_7.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\scroll\lv_example_scroll_8.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\scroll\lv_example_scroll.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\styles 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\styles\lv_example_style_1.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\styles\lv_example_style_10.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\styles\lv_example_style_11.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\styles\lv_example_style_12.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\styles\lv_example_style_13.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\styles\lv_example_style_14.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\styles\lv_example_style_15.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\styles\lv_example_style_16.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\styles\lv_example_style_17.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\styles\lv_example_style_18.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\styles\lv_example_style_19.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\styles\lv_example_style_2.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\styles\lv_example_style_3.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\styles\lv_example_style_4.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\styles\lv_example_style_5.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\styles\lv_example_style_6.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\styles\lv_example_style_7.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\styles\lv_example_style_8.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\styles\lv_example_style_9.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\styles\lv_example_style.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\lv_example_widgets.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\animimg 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\animimg\lv_example_animimg_1.c 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\arc 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\arc\lv_example_arc_1.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\arc\lv_example_arc_2.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\arc\lv_example_arc_3.c 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\arclabel 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\arclabel\lv_example_arclabel_1.c 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\bar 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\bar\lv_example_bar_1.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\bar\lv_example_bar_2.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\bar\lv_example_bar_3.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\bar\lv_example_bar_4.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\bar\lv_example_bar_5.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\bar\lv_example_bar_6.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\bar\lv_example_bar_7.c 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\button 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\button\lv_example_button_1.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\button\lv_example_button_2.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\button\lv_example_button_3.c 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\buttonmatrix 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\buttonmatrix\lv_example_buttonmatrix_1.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\buttonmatrix\lv_example_buttonmatrix_2.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\buttonmatrix\lv_example_buttonmatrix_3.c 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\calendar 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\calendar\lv_example_calendar_1.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\calendar\lv_example_calendar_2.c 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\canvas 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\canvas\lv_example_canvas_1.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\canvas\lv_example_canvas_10.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\canvas\lv_example_canvas_11.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\canvas\lv_example_canvas_2.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\canvas\lv_example_canvas_3.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\canvas\lv_example_canvas_4.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\canvas\lv_example_canvas_5.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\canvas\lv_example_canvas_6.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\canvas\lv_example_canvas_7.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\canvas\lv_example_canvas_8.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\canvas\lv_example_canvas_9.c 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\chart 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\chart\lv_example_chart_1.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\chart\lv_example_chart_2.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\chart\lv_example_chart_3.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\chart\lv_example_chart_4.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\chart\lv_example_chart_5.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\chart\lv_example_chart_6.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\chart\lv_example_chart_7.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\chart\lv_example_chart_8.c 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\checkbox 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\checkbox\lv_example_checkbox_1.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\checkbox\lv_example_checkbox_2.c 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\dropdown 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\dropdown\lv_example_dropdown_1.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\dropdown\lv_example_dropdown_2.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\dropdown\lv_example_dropdown_3.c 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\image 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\image\lv_example_image_1.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\image\lv_example_image_2.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\image\lv_example_image_3.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\image\lv_example_image_4.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\image\lv_example_image_5.c 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\imagebutton 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\imagebutton\lv_example_imagebutton_1.c 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\keyboard 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\keyboard\lv_example_keyboard_1.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\keyboard\lv_example_keyboard_2.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\keyboard\lv_example_keyboard_3.c 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\label 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\label\lv_example_label_1.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\label\lv_example_label_2.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\label\lv_example_label_3.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\label\lv_example_label_4.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\label\lv_example_label_5.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\label\lv_example_label_6.c 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\led 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\led\lv_example_led_1.c 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\line 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\line\lv_example_line_1.c 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\list 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\list\lv_example_list_1.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\list\lv_example_list_2.c 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\lottie 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\lottie\lv_example_lottie_1.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\lottie\lv_example_lottie_2.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\lottie\lv_example_lottie_approve.c 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\menu 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\menu\lv_example_menu_1.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\menu\lv_example_menu_2.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\menu\lv_example_menu_3.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\menu\lv_example_menu_4.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\menu\lv_example_menu_5.c 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\msgbox 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\msgbox\lv_example_msgbox_1.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\msgbox\lv_example_msgbox_2.c 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\obj 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\obj\lv_example_obj_1.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\obj\lv_example_obj_2.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\obj\lv_example_obj_3.c 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\roller 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\roller\lv_example_roller_1.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\roller\lv_example_roller_2.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\roller\lv_example_roller_3.c 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\scale 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\scale\lv_example_scale_1.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\scale\lv_example_scale_10.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\scale\lv_example_scale_11.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\scale\lv_example_scale_2.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\scale\lv_example_scale_3.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\scale\lv_example_scale_4.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\scale\lv_example_scale_5.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\scale\lv_example_scale_6.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\scale\lv_example_scale_7.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\scale\lv_example_scale_8.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\scale\lv_example_scale_9.c 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\slider 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\slider\lv_example_slider_1.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\slider\lv_example_slider_2.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\slider\lv_example_slider_3.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\slider\lv_example_slider_4.c 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\span 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\span\lv_example_span_1.c 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\spinbox 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\spinbox\lv_example_spinbox_1.c 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\spinner 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\spinner\lv_example_spinner_1.c 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\switch 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\switch\lv_example_switch_1.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\switch\lv_example_switch_2.c 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\table 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\table\lv_example_table_1.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\table\lv_example_table_2.c 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\tabview 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\tabview\lv_example_tabview_1.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\tabview\lv_example_tabview_2.c 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\textarea 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\textarea\lv_example_textarea_1.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\textarea\lv_example_textarea_2.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\textarea\lv_example_textarea_3.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\textarea\lv_example_textarea_4.c 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\tileview 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\tileview\lv_example_tileview_1.c 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\win 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\examples\widgets\win\lv_example_win_1.c 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\lv_init.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\lvgl.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\lvgl_private.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\lv_api_map_v8.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\lv_api_map_v9_0.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\lv_api_map_v9_1.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\lv_conf_internal.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\lv_conf_kconfig.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\lv_init.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\core 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\core\lv_group.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\core\lv_obj.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\core\lv_obj_class.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\core\lv_obj_draw.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\core\lv_obj_event.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\core\lv_obj_id_builtin.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\core\lv_obj_pos.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\core\lv_obj_property.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\core\lv_obj_scroll.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\core\lv_obj_style.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\core\lv_obj_style_gen.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\core\lv_obj_tree.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\core\lv_refr.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\core\lv_global.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\core\lv_group.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\core\lv_group_private.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\core\lv_obj.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\core\lv_obj_class.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\core\lv_obj_class_private.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\core\lv_obj_draw.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\core\lv_obj_draw_private.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\core\lv_obj_event.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\core\lv_obj_event_private.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\core\lv_obj_pos.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\core\lv_obj_private.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\core\lv_obj_property.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\core\lv_obj_scroll.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\core\lv_obj_scroll_private.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\core\lv_obj_style.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\core\lv_obj_style_gen.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\core\lv_obj_style_private.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\core\lv_obj_tree.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\core\lv_refr.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\core\lv_refr_private.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\display 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\display\lv_display.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\display\lv_display.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\display\lv_display_private.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\lv_draw.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\lv_draw_3d.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\lv_draw_arc.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\lv_draw_buf.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\lv_draw_image.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\lv_draw_label.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\lv_draw_line.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\lv_draw_mask.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\lv_draw_rect.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\lv_draw_triangle.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\lv_draw_vector.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\lv_image_decoder.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\lv_draw.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\lv_draw_3d.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\lv_draw_arc.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\lv_draw_buf.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\lv_draw_buf_private.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\lv_draw_image.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\lv_draw_image_private.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\lv_draw_label.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\lv_draw_label_private.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\lv_draw_line.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\lv_draw_mask.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\lv_draw_mask_private.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\lv_draw_private.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\lv_draw_rect.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\lv_draw_rect_private.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\lv_draw_triangle.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\lv_draw_triangle_private.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\lv_draw_vector.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\lv_draw_vector_private.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\lv_image_decoder.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\lv_image_decoder_private.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\lv_image_dsc.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\dma2d 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\dma2d\lv_draw_dma2d.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\dma2d\lv_draw_dma2d_fill.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\dma2d\lv_draw_dma2d_img.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\dma2d\lv_draw_dma2d.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\dma2d\lv_draw_dma2d_private.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\nema_gfx 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\nema_gfx\lv_draw_nema_gfx.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\nema_gfx\lv_draw_nema_gfx_arc.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\nema_gfx\lv_draw_nema_gfx_border.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\nema_gfx\lv_draw_nema_gfx_fill.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\nema_gfx\lv_draw_nema_gfx_img.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\nema_gfx\lv_draw_nema_gfx_label.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\nema_gfx\lv_draw_nema_gfx_layer.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\nema_gfx\lv_draw_nema_gfx_line.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\nema_gfx\lv_draw_nema_gfx_stm32_hal.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\nema_gfx\lv_draw_nema_gfx_triangle.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\nema_gfx\lv_draw_nema_gfx_utils.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\nema_gfx\lv_nema_gfx_path.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\nema_gfx\lv_draw_nema_gfx.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\nema_gfx\lv_draw_nema_gfx_utils.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\nema_gfx\lv_nema_gfx_path.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\nxp\g2d 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\nxp\g2d\lv_draw_buf_g2d.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\nxp\g2d\lv_draw_g2d.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\nxp\g2d\lv_draw_g2d_fill.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\nxp\g2d\lv_draw_g2d_img.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\nxp\g2d\lv_g2d_buf_map.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\nxp\g2d\lv_g2d_utils.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\nxp\g2d\lv_draw_g2d.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\nxp\g2d\lv_g2d_buf_map.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\nxp\g2d\lv_g2d_utils.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\nxp\pxp 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\nxp\pxp\lv_draw_buf_pxp.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\nxp\pxp\lv_draw_pxp.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\nxp\pxp\lv_draw_pxp_fill.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\nxp\pxp\lv_draw_pxp_img.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\nxp\pxp\lv_draw_pxp_layer.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\nxp\pxp\lv_pxp_cfg.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\nxp\pxp\lv_pxp_osa.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\nxp\pxp\lv_pxp_utils.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\nxp\pxp\lv_draw_pxp.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\nxp\pxp\lv_pxp_cfg.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\nxp\pxp\lv_pxp_osa.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\nxp\pxp\lv_pxp_utils.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\nxp\vglite 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\nxp\vglite\lv_draw_buf_vglite.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\nxp\vglite\lv_draw_vglite.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\nxp\vglite\lv_draw_vglite_arc.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\nxp\vglite\lv_draw_vglite_border.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\nxp\vglite\lv_draw_vglite_fill.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\nxp\vglite\lv_draw_vglite_img.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\nxp\vglite\lv_draw_vglite_label.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\nxp\vglite\lv_draw_vglite_layer.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\nxp\vglite\lv_draw_vglite_line.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\nxp\vglite\lv_draw_vglite_triangle.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\nxp\vglite\lv_vglite_buf.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\nxp\vglite\lv_vglite_matrix.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\nxp\vglite\lv_vglite_path.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\nxp\vglite\lv_vglite_utils.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\nxp\vglite\lv_draw_vglite.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\nxp\vglite\lv_vglite_buf.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\nxp\vglite\lv_vglite_matrix.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\nxp\vglite\lv_vglite_path.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\nxp\vglite\lv_vglite_utils.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\opengles 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\opengles\lv_draw_opengles.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\opengles\lv_draw_opengles.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\renesas\dave2d 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\renesas\dave2d\lv_draw_dave2d.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\renesas\dave2d\lv_draw_dave2d_arc.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\renesas\dave2d\lv_draw_dave2d_border.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\renesas\dave2d\lv_draw_dave2d_fill.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\renesas\dave2d\lv_draw_dave2d_image.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\renesas\dave2d\lv_draw_dave2d_label.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\renesas\dave2d\lv_draw_dave2d_line.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\renesas\dave2d\lv_draw_dave2d_mask_rectangle.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\renesas\dave2d\lv_draw_dave2d_triangle.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\renesas\dave2d\lv_draw_dave2d_utils.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\renesas\dave2d\lv_draw_dave2d.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\renesas\dave2d\lv_draw_dave2d_utils.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\sdl 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\sdl\lv_draw_sdl.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\sdl\lv_draw_sdl.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\sw 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\sw\lv_draw_sw.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\sw\lv_draw_sw_arc.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\sw\lv_draw_sw_border.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\sw\lv_draw_sw_box_shadow.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\sw\lv_draw_sw_fill.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\sw\lv_draw_sw_grad.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\sw\lv_draw_sw_img.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\sw\lv_draw_sw_letter.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\sw\lv_draw_sw_line.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\sw\lv_draw_sw_mask.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\sw\lv_draw_sw_mask_rect.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\sw\lv_draw_sw_transform.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\sw\lv_draw_sw_triangle.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\sw\lv_draw_sw_utils.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\sw\lv_draw_sw_vector.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\sw\lv_draw_sw.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\sw\lv_draw_sw_grad.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\sw\lv_draw_sw_mask.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\sw\lv_draw_sw_mask_private.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\sw\lv_draw_sw_private.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\sw\lv_draw_sw_utils.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\sw\arm2d 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\sw\arm2d\lv_draw_sw_arm2d.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\sw\arm2d\lv_draw_sw_helium.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\sw\blend 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\sw\blend\lv_draw_sw_blend.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\sw\blend\lv_draw_sw_blend_to_al88.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\sw\blend\lv_draw_sw_blend_to_argb8888.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\sw\blend\lv_draw_sw_blend_to_argb8888_premultiplied.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\sw\blend\lv_draw_sw_blend_to_i1.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\sw\blend\lv_draw_sw_blend_to_l8.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\sw\blend\lv_draw_sw_blend_to_rgb565.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\sw\blend\lv_draw_sw_blend_to_rgb565_swapped.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\sw\blend\lv_draw_sw_blend_to_rgb888.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\sw\blend\lv_draw_sw_blend.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\sw\blend\lv_draw_sw_blend_private.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\sw\blend\lv_draw_sw_blend_to_al88.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\sw\blend\lv_draw_sw_blend_to_argb8888.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\sw\blend\lv_draw_sw_blend_to_argb8888_premultiplied.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\sw\blend\lv_draw_sw_blend_to_i1.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\sw\blend\lv_draw_sw_blend_to_l8.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\sw\blend\lv_draw_sw_blend_to_rgb565.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\sw\blend\lv_draw_sw_blend_to_rgb565_swapped.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\sw\blend\lv_draw_sw_blend_to_rgb888.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\sw\blend\arm2d 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\sw\blend\arm2d\lv_blend_arm2d.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\sw\blend\helium 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\sw\blend\helium\lv_blend_helium.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\sw\blend\neon 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\sw\blend\neon\lv_blend_neon.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\vg_lite 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\vg_lite\lv_draw_buf_vg_lite.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\vg_lite\lv_draw_vg_lite.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\vg_lite\lv_draw_vg_lite_arc.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\vg_lite\lv_draw_vg_lite_border.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\vg_lite\lv_draw_vg_lite_box_shadow.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\vg_lite\lv_draw_vg_lite_fill.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\vg_lite\lv_draw_vg_lite_img.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\vg_lite\lv_draw_vg_lite_label.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\vg_lite\lv_draw_vg_lite_layer.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\vg_lite\lv_draw_vg_lite_line.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\vg_lite\lv_draw_vg_lite_mask_rect.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\vg_lite\lv_draw_vg_lite_triangle.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\vg_lite\lv_draw_vg_lite_vector.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\vg_lite\lv_vg_lite_decoder.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\vg_lite\lv_vg_lite_grad.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\vg_lite\lv_vg_lite_math.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\vg_lite\lv_vg_lite_path.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\vg_lite\lv_vg_lite_pending.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\vg_lite\lv_vg_lite_stroke.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\vg_lite\lv_vg_lite_utils.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\vg_lite\lv_draw_vg_lite.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\vg_lite\lv_draw_vg_lite_type.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\vg_lite\lv_vg_lite_decoder.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\vg_lite\lv_vg_lite_grad.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\vg_lite\lv_vg_lite_math.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\vg_lite\lv_vg_lite_path.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\vg_lite\lv_vg_lite_pending.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\vg_lite\lv_vg_lite_stroke.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\draw\vg_lite\lv_vg_lite_utils.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\lv_drivers.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\display\drm 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\display\drm\lv_linux_drm.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\display\drm\lv_linux_drm.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\display\fb 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\display\fb\lv_linux_fbdev.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\display\fb\lv_linux_fbdev.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\display\ft81x 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\display\ft81x\lv_ft81x.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\display\ft81x\lv_ft81x.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\display\ft81x\lv_ft81x_defines.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\display\ili9341 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\display\ili9341\lv_ili9341.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\display\ili9341\lv_ili9341.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\display\lcd 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\display\lcd\lv_lcd_generic_mipi.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\display\lcd\lv_lcd_generic_mipi.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\display\renesas_glcdc 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\display\renesas_glcdc\lv_renesas_glcdc.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\display\renesas_glcdc\lv_renesas_glcdc.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\display\st7735 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\display\st7735\lv_st7735.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\display\st7735\lv_st7735.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\display\st7789 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\display\st7789\lv_st7789.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\display\st7789\lv_st7789.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\display\st7796 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\display\st7796\lv_st7796.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\display\st7796\lv_st7796.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\display\st_ltdc 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\display\st_ltdc\lv_st_ltdc.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\display\st_ltdc\lv_st_ltdc.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\display\tft_espi 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\display\tft_espi\lv_tft_espi.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\evdev 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\evdev\lv_evdev.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\evdev\lv_evdev.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\evdev\lv_evdev_private.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\glfw 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\glfw\lv_glfw_window.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\glfw\lv_opengles_debug.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\glfw\lv_opengles_driver.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\glfw\lv_opengles_texture.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\glfw\lv_glfw_window.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\glfw\lv_glfw_window_private.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\glfw\lv_opengles_debug.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\glfw\lv_opengles_driver.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\glfw\lv_opengles_texture.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\libinput 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\libinput\lv_libinput.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\libinput\lv_xkb.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\libinput\lv_libinput.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\libinput\lv_libinput_private.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\libinput\lv_xkb.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\libinput\lv_xkb_private.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\nuttx 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\nuttx\lv_nuttx_cache.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\nuttx\lv_nuttx_entry.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\nuttx\lv_nuttx_fbdev.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\nuttx\lv_nuttx_image_cache.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\nuttx\lv_nuttx_lcd.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\nuttx\lv_nuttx_libuv.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\nuttx\lv_nuttx_profiler.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\nuttx\lv_nuttx_touchscreen.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\nuttx\lv_nuttx_cache.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\nuttx\lv_nuttx_entry.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\nuttx\lv_nuttx_fbdev.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\nuttx\lv_nuttx_image_cache.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\nuttx\lv_nuttx_lcd.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\nuttx\lv_nuttx_libuv.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\nuttx\lv_nuttx_profiler.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\nuttx\lv_nuttx_touchscreen.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\qnx 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\qnx\lv_qnx.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\qnx\lv_qnx.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\sdl 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\sdl\lv_sdl_keyboard.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\sdl\lv_sdl_mouse.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\sdl\lv_sdl_mousewheel.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\sdl\lv_sdl_window.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\sdl\lv_sdl_keyboard.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\sdl\lv_sdl_mouse.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\sdl\lv_sdl_mousewheel.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\sdl\lv_sdl_private.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\sdl\lv_sdl_window.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\uefi 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\uefi\lv_uefi_context.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\uefi\lv_uefi_display.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\uefi\lv_uefi_indev_keyboard.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\uefi\lv_uefi_indev_pointer.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\uefi\lv_uefi_indev_touch.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\uefi\lv_uefi_private.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\uefi\lv_uefi.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\uefi\lv_uefi_context.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\uefi\lv_uefi_display.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\uefi\lv_uefi_edk2.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\uefi\lv_uefi_gnu_efi.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\uefi\lv_uefi_indev.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\uefi\lv_uefi_private.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\uefi\lv_uefi_std_wrapper.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\wayland 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\wayland\lv_wayland.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\wayland\lv_wayland_smm.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\wayland\lv_wl_cache.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\wayland\lv_wl_dmabuf.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\wayland\lv_wl_keyboard.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\wayland\lv_wl_pointer.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\wayland\lv_wl_pointer_axis.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\wayland\lv_wl_seat.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\wayland\lv_wl_shell.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\wayland\lv_wl_shm.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\wayland\lv_wl_touch.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\wayland\lv_wl_window.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\wayland\lv_wl_window_decorations.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\wayland\lv_wl_xdg_shell.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\wayland\lv_wayland.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\wayland\lv_wayland_private.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\wayland\lv_wayland_smm.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\wayland\lv_wl_keyboard.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\wayland\lv_wl_pointer.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\wayland\lv_wl_pointer_axis.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\wayland\lv_wl_touch.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\wayland\lv_wl_window.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\windows 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\windows\lv_windows_context.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\windows\lv_windows_display.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\windows\lv_windows_input.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\windows\lv_windows_context.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\windows\lv_windows_display.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\windows\lv_windows_input.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\windows\lv_windows_input_private.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\x11 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\x11\lv_x11_display.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\x11\lv_x11_input.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\drivers\x11\lv_x11.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\font 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\font\lv_binfont_loader.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\font\lv_font.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\font\lv_font_dejavu_16_persian_hebrew.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\font\lv_font_fmt_txt.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\font\lv_font_montserrat_10.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\font\lv_font_montserrat_12.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\font\lv_font_montserrat_14.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\font\lv_font_montserrat_14_aligned.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\font\lv_font_montserrat_16.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\font\lv_font_montserrat_18.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\font\lv_font_montserrat_20.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\font\lv_font_montserrat_22.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\font\lv_font_montserrat_24.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\font\lv_font_montserrat_26.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\font\lv_font_montserrat_28.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\font\lv_font_montserrat_28_compressed.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\font\lv_font_montserrat_30.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\font\lv_font_montserrat_32.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\font\lv_font_montserrat_34.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\font\lv_font_montserrat_36.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\font\lv_font_montserrat_38.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\font\lv_font_montserrat_40.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\font\lv_font_montserrat_42.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\font\lv_font_montserrat_44.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\font\lv_font_montserrat_46.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\font\lv_font_montserrat_48.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\font\lv_font_montserrat_8.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\font\lv_font_simsun_14_cjk.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\font\lv_font_simsun_16_cjk.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\font\lv_font_source_han_sans_sc_14_cjk.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\font\lv_font_source_han_sans_sc_16_cjk.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\font\lv_font_unscii_16.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\font\lv_font_unscii_8.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\font\lv_binfont_loader.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\font\lv_font.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\font\lv_font_fmt_txt.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\font\lv_font_fmt_txt_private.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\font\lv_symbol_def.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\indev 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\indev\lv_indev.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\indev\lv_indev_gesture.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\indev\lv_indev_scroll.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\indev\lv_indev.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\indev\lv_indev_gesture.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\indev\lv_indev_gesture_private.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\indev\lv_indev_private.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\indev\lv_indev_scroll.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\layouts 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\layouts\lv_layout.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\layouts\lv_layout.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\layouts\lv_layout_private.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\layouts\flex 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\layouts\flex\lv_flex.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\layouts\flex\lv_flex.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\layouts\grid 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\layouts\grid\lv_grid.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\layouts\grid\lv_grid.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\barcode 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\barcode\code128.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\barcode\lv_barcode.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\barcode\code128.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\barcode\lv_barcode.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\barcode\lv_barcode_private.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\bin_decoder 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\bin_decoder\lv_bin_decoder.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\bin_decoder\lv_bin_decoder.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\bmp 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\bmp\lv_bmp.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\bmp\lv_bmp.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\expat 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\expat\xmlparse.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\expat\xmlrole.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\expat\xmltok.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\expat\xmltok_impl.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\expat\xmltok_ns.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\expat\ascii.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\expat\asciitab.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\expat\expat.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\expat\expat_config.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\expat\expat_external.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\expat\iasciitab.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\expat\internal.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\expat\latin1tab.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\expat\nametab.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\expat\siphash.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\expat\utf8tab.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\expat\winconfig.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\expat\xmlrole.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\expat\xmltok.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\expat\xmltok_impl.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\ffmpeg 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\ffmpeg\lv_ffmpeg.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\ffmpeg\lv_ffmpeg.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\ffmpeg\lv_ffmpeg_private.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\freetype 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\freetype\lv_freetype.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\freetype\lv_freetype_glyph.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\freetype\lv_freetype_image.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\freetype\lv_freetype_outline.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\freetype\lv_ftsystem.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\freetype\ftmodule.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\freetype\ftoption.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\freetype\lv_freetype.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\freetype\lv_freetype_private.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\fsdrv 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\fsdrv\lv_fs_cbfs.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\fsdrv\lv_fs_fatfs.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\fsdrv\lv_fs_littlefs.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\fsdrv\lv_fs_memfs.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\fsdrv\lv_fs_posix.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\fsdrv\lv_fs_stdio.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\fsdrv\lv_fs_uefi.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\fsdrv\lv_fs_win32.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\fsdrv\lv_fsdrv.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\gif 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\gif\gifdec.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\gif\lv_gif.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\gif\gifdec.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\gif\gifdec_mve.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\gif\lv_gif.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\gif\lv_gif_private.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\libjpeg_turbo 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\libjpeg_turbo\lv_libjpeg_turbo.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\libjpeg_turbo\lv_libjpeg_turbo.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\libpng 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\libpng\lv_libpng.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\libpng\lv_libpng.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\lodepng 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\lodepng\lodepng.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\lodepng\lv_lodepng.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\lodepng\lodepng.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\lodepng\lv_lodepng.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\lz4 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\lz4\lz4.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\lz4\lz4.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\qrcode 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\qrcode\lv_qrcode.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\qrcode\qrcodegen.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\qrcode\lv_qrcode.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\qrcode\lv_qrcode_private.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\qrcode\qrcodegen.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\rle 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\rle\lv_rle.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\rle\lv_rle.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\rlottie 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\rlottie\lv_rlottie.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\rlottie\lv_rlottie.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\rlottie\lv_rlottie_private.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\svg 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\svg\lv_svg.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\svg\lv_svg_decoder.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\svg\lv_svg_parser.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\svg\lv_svg_render.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\svg\lv_svg_token.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\svg\lv_svg.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\svg\lv_svg_decoder.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\svg\lv_svg_parser.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\svg\lv_svg_render.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\svg\lv_svg_token.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\config.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\thorvg.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\thorvg_capi.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\thorvg_lottie.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\tvgAnimation.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\tvgArray.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\tvgBinaryDesc.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\tvgCanvas.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\tvgCommon.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\tvgCompressor.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\tvgFill.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\tvgFrameModule.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\tvgInlist.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\tvgIteratorAccessor.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\tvgLoader.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\tvgLoadModule.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\tvgLock.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\tvgLottieBuilder.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\tvgLottieCommon.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\tvgLottieExpressions.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\tvgLottieInterpolator.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\tvgLottieLoader.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\tvgLottieModel.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\tvgLottieModifier.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\tvgLottieParser.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\tvgLottieParserHandler.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\tvgLottieProperty.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\tvgLottieRenderPooler.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\tvgMath.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\tvgPaint.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\tvgPicture.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\tvgRawLoader.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\tvgRender.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\tvgSaveModule.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\tvgScene.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\tvgShape.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\tvgStr.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\tvgSvgCssStyle.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\tvgSvgLoader.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\tvgSvgLoaderCommon.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\tvgSvgPath.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\tvgSvgSceneBuilder.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\tvgSvgUtil.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\tvgSwCommon.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\tvgSwRasterAvx.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\tvgSwRasterC.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\tvgSwRasterNeon.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\tvgSwRasterTexmap.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\tvgSwRenderer.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\tvgTaskScheduler.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\tvgText.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\tvgXmlParser.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\rapidjson 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\rapidjson\allocators.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\rapidjson\cursorstreamwrapper.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\rapidjson\document.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\rapidjson\encodedstream.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\rapidjson\encodings.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\rapidjson\filereadstream.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\rapidjson\filewritestream.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\rapidjson\fwd.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\rapidjson\istreamwrapper.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\rapidjson\memorybuffer.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\rapidjson\memorystream.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\rapidjson\ostreamwrapper.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\rapidjson\pointer.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\rapidjson\prettywriter.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\rapidjson\rapidjson.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\rapidjson\reader.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\rapidjson\schema.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\rapidjson\stream.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\rapidjson\stringbuffer.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\rapidjson\uri.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\rapidjson\writer.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\rapidjson\error 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\rapidjson\error\en.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\rapidjson\error\error.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\rapidjson\internal 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\rapidjson\internal\biginteger.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\rapidjson\internal\clzll.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\rapidjson\internal\diyfp.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\rapidjson\internal\dtoa.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\rapidjson\internal\ieee754.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\rapidjson\internal\itoa.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\rapidjson\internal\meta.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\rapidjson\internal\pow10.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\rapidjson\internal\regex.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\rapidjson\internal\stack.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\rapidjson\internal\strfunc.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\rapidjson\internal\strtod.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\rapidjson\internal\swap.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\rapidjson\msinttypes 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\rapidjson\msinttypes\inttypes.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\thorvg\rapidjson\msinttypes\stdint.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\tiny_ttf 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\tiny_ttf\lv_tiny_ttf.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\tiny_ttf\lv_tiny_ttf.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\tiny_ttf\stb_rect_pack.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\tiny_ttf\stb_truetype_htcw.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\tjpgd 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\tjpgd\lv_tjpgd.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\tjpgd\tjpgd.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\tjpgd\lv_tjpgd.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\tjpgd\tjpgd.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\libs\tjpgd\tjpgdcnf.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\lv_anim.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\lv_anim_timeline.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\lv_area.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\lv_array.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\lv_async.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\lv_bidi.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\lv_circle_buf.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\lv_color.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\lv_color_op.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\lv_event.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\lv_fs.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\lv_grad.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\lv_iter.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\lv_ll.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\lv_log.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\lv_lru.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\lv_math.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\lv_matrix.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\lv_palette.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\lv_profiler_builtin.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\lv_rb.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\lv_style.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\lv_style_gen.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\lv_templ.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\lv_text.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\lv_text_ap.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\lv_timer.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\lv_tree.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\lv_utils.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\lv_anim.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\lv_anim_private.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\lv_anim_timeline.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\lv_area.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\lv_area_private.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\lv_array.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\lv_assert.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\lv_async.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\lv_bidi.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\lv_bidi_private.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\lv_circle_buf.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\lv_color.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\lv_color_op.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\lv_color_op_private.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\lv_event.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\lv_event_private.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\lv_fs.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\lv_fs_private.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\lv_grad.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\lv_iter.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\lv_ll.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\lv_log.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\lv_lru.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\lv_math.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\lv_matrix.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\lv_palette.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\lv_profiler.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\lv_profiler_builtin.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\lv_profiler_builtin_private.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\lv_rb.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\lv_rb_private.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\lv_style.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\lv_style_gen.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\lv_style_private.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\lv_templ.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\lv_text.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\lv_text_ap.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\lv_text_private.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\lv_timer.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\lv_timer_private.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\lv_tree.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\lv_types.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\lv_utils.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\cache 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\cache\lv_cache.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\cache\lv_cache_entry.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\cache\lv_cache.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\cache\lv_cache_entry.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\cache\lv_cache_entry_private.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\cache\lv_cache_private.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\cache\class 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\cache\class\lv_cache_lru_ll.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\cache\class\lv_cache_lru_rb.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\cache\class\lv_cache_class.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\cache\class\lv_cache_lru_ll.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\cache\class\lv_cache_lru_rb.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\cache\instance 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\cache\instance\lv_image_cache.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\cache\instance\lv_image_header_cache.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\cache\instance\lv_cache_instance.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\cache\instance\lv_image_cache.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\misc\cache\instance\lv_image_header_cache.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\osal 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\osal\lv_cmsis_rtos2.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\osal\lv_freertos.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\osal\lv_linux.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\osal\lv_mqx.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\osal\lv_os.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\osal\lv_os_none.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\osal\lv_pthread.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\osal\lv_rtthread.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\osal\lv_sdl2.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\osal\lv_windows.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\osal\lv_cmsis_rtos2.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\osal\lv_freertos.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\osal\lv_linux_private.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\osal\lv_mqx.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\osal\lv_os.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\osal\lv_os_none.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\osal\lv_os_private.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\osal\lv_pthread.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\osal\lv_rtthread.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\osal\lv_sdl2.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\osal\lv_windows.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\file_explorer 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\file_explorer\lv_file_explorer.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\file_explorer\lv_file_explorer.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\file_explorer\lv_file_explorer_private.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\font_manager 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\font_manager\lv_font_manager.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\font_manager\lv_font_manager_recycle.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\font_manager\lv_font_manager.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\font_manager\lv_font_manager_recycle.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\fragment 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\fragment\lv_fragment.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\fragment\lv_fragment_manager.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\fragment\lv_fragment.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\fragment\lv_fragment_private.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\gridnav 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\gridnav\lv_gridnav.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\gridnav\lv_gridnav.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\ime 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\ime\lv_ime_pinyin.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\ime\lv_ime_pinyin.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\ime\lv_ime_pinyin_private.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\imgfont 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\imgfont\lv_imgfont.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\imgfont\lv_imgfont.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\monkey 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\monkey\lv_monkey.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\monkey\lv_monkey.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\monkey\lv_monkey_private.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\observer 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\observer\lv_observer.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\observer\lv_observer.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\observer\lv_observer_private.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\snapshot 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\snapshot\lv_snapshot.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\snapshot\lv_snapshot.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\sysmon 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\sysmon\lv_sysmon.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\sysmon\lv_sysmon.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\sysmon\lv_sysmon_private.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\test 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\test\lv_test_display.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\test\lv_test_helpers.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\test\lv_test_indev.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\test\lv_test_indev_gesture.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\test\lv_test_screenshot_compare.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\test\lv_test.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\test\lv_test_display.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\test\lv_test_helpers.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\test\lv_test_indev.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\test\lv_test_indev_gesture.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\test\lv_test_private.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\test\lv_test_screenshot_compare.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\vg_lite_tvg 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\vg_lite_tvg\vg_lite_matrix.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\vg_lite_tvg\vg_lite.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\xml 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\xml\lv_xml.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\xml\lv_xml_base_types.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\xml\lv_xml_component.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\xml\lv_xml_parser.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\xml\lv_xml_style.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\xml\lv_xml_update.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\xml\lv_xml_utils.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\xml\lv_xml_widget.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\xml\lv_xml.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\xml\lv_xml_base_types.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\xml\lv_xml_component.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\xml\lv_xml_component_private.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\xml\lv_xml_parser.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\xml\lv_xml_private.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\xml\lv_xml_style.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\xml\lv_xml_update.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\xml\lv_xml_utils.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\xml\lv_xml_widget.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\xml\parsers 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\xml\parsers\lv_xml_arc_parser.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\xml\parsers\lv_xml_bar_parser.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\xml\parsers\lv_xml_buttonmatrix_parser.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\xml\parsers\lv_xml_button_parser.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\xml\parsers\lv_xml_calendar_parser.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\xml\parsers\lv_xml_canvas_parser.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\xml\parsers\lv_xml_chart_parser.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\xml\parsers\lv_xml_checkbox_parser.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\xml\parsers\lv_xml_dropdown_parser.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\xml\parsers\lv_xml_event_parser.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\xml\parsers\lv_xml_image_parser.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\xml\parsers\lv_xml_keyboard_parser.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\xml\parsers\lv_xml_label_parser.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\xml\parsers\lv_xml_obj_parser.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\xml\parsers\lv_xml_roller_parser.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\xml\parsers\lv_xml_scale_parser.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\xml\parsers\lv_xml_slider_parser.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\xml\parsers\lv_xml_spangroup_parser.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\xml\parsers\lv_xml_table_parser.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\xml\parsers\lv_xml_tabview_parser.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\xml\parsers\lv_xml_textarea_parser.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\xml\parsers\lv_xml_arc_parser.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\xml\parsers\lv_xml_bar_parser.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\xml\parsers\lv_xml_buttonmatrix_parser.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\xml\parsers\lv_xml_button_parser.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\xml\parsers\lv_xml_calendar_parser.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\xml\parsers\lv_xml_canvas_parser.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\xml\parsers\lv_xml_chart_parser.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\xml\parsers\lv_xml_checkbox_parser.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\xml\parsers\lv_xml_dropdown_parser.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\xml\parsers\lv_xml_event_parser.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\xml\parsers\lv_xml_image_parser.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\xml\parsers\lv_xml_keyboard_parser.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\xml\parsers\lv_xml_label_parser.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\xml\parsers\lv_xml_obj_parser.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\xml\parsers\lv_xml_roller_parser.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\xml\parsers\lv_xml_scale_parser.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\xml\parsers\lv_xml_slider_parser.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\xml\parsers\lv_xml_spangroup_parser.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\xml\parsers\lv_xml_table_parser.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\xml\parsers\lv_xml_tabview_parser.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\others\xml\parsers\lv_xml_textarea_parser.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\stdlib 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\stdlib\lv_mem.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\stdlib\lv_mem.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\stdlib\lv_mem_private.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\stdlib\lv_sprintf.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\stdlib\lv_string.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\stdlib\builtin 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\stdlib\builtin\lv_mem_core_builtin.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\stdlib\builtin\lv_sprintf_builtin.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\stdlib\builtin\lv_string_builtin.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\stdlib\builtin\lv_tlsf.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\stdlib\builtin\lv_tlsf.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\stdlib\builtin\lv_tlsf_private.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\stdlib\clib 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\stdlib\clib\lv_mem_core_clib.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\stdlib\clib\lv_sprintf_clib.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\stdlib\clib\lv_string_clib.c 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\stdlib\micropython 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\stdlib\micropython\lv_mem_core_micropython.c 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\stdlib\rtthread 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\stdlib\rtthread\lv_mem_core_rtthread.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\stdlib\rtthread\lv_sprintf_rtthread.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\stdlib\rtthread\lv_string_rtthread.c 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\stdlib\uefi 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\stdlib\uefi\lv_mem_core_uefi.c 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\themes 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\themes\lv_theme.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\themes\lv_theme.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\themes\lv_theme_private.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\themes\default 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\themes\default\lv_theme_default.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\themes\default\lv_theme_default.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\themes\mono 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\themes\mono\lv_theme_mono.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\themes\mono\lv_theme_mono.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\themes\simple 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\themes\simple\lv_theme_simple.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\themes\simple\lv_theme_simple.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\tick 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\tick\lv_tick.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\tick\lv_tick.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\tick\lv_tick_private.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\3dtexture 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\3dtexture\lv_3dtexture.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\3dtexture\lv_3dtexture.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\3dtexture\lv_3dtexture_private.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\animimage 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\animimage\lv_animimage.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\animimage\lv_animimage.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\animimage\lv_animimage_private.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\arc 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\arc\lv_arc.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\arc\lv_arc.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\arc\lv_arc_private.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\arclabel 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\arclabel\lv_arclabel.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\arclabel\lv_arclabel.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\arclabel\lv_arclabel_private.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\bar 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\bar\lv_bar.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\bar\lv_bar.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\bar\lv_bar_private.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\button 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\button\lv_button.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\button\lv_button.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\button\lv_button_private.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\buttonmatrix 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\buttonmatrix\lv_buttonmatrix.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\buttonmatrix\lv_buttonmatrix.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\buttonmatrix\lv_buttonmatrix_private.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\calendar 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\calendar\lv_calendar.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\calendar\lv_calendar_chinese.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\calendar\lv_calendar_header_arrow.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\calendar\lv_calendar_header_dropdown.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\calendar\lv_calendar.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\calendar\lv_calendar_chinese.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\calendar\lv_calendar_header_arrow.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\calendar\lv_calendar_header_dropdown.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\calendar\lv_calendar_private.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\canvas 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\canvas\lv_canvas.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\canvas\lv_canvas.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\canvas\lv_canvas_private.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\chart 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\chart\lv_chart.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\chart\lv_chart.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\chart\lv_chart_private.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\checkbox 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\checkbox\lv_checkbox.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\checkbox\lv_checkbox.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\checkbox\lv_checkbox_private.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\dropdown 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\dropdown\lv_dropdown.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\dropdown\lv_dropdown.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\dropdown\lv_dropdown_private.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\image 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\image\lv_image.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\image\lv_image.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\image\lv_image_private.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\imagebutton 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\imagebutton\lv_imagebutton.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\imagebutton\lv_imagebutton.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\imagebutton\lv_imagebutton_private.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\keyboard 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\keyboard\lv_keyboard.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\keyboard\lv_keyboard.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\keyboard\lv_keyboard_private.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\label 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\label\lv_label.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\label\lv_label.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\label\lv_label_private.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\led 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\led\lv_led.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\led\lv_led.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\led\lv_led_private.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\line 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\line\lv_line.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\line\lv_line.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\line\lv_line_private.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\list 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\list\lv_list.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\list\lv_list.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\lottie 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\lottie\lv_lottie.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\lottie\lv_lottie.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\lottie\lv_lottie_private.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\menu 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\menu\lv_menu.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\menu\lv_menu.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\menu\lv_menu_private.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\msgbox 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\msgbox\lv_msgbox.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\msgbox\lv_msgbox.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\msgbox\lv_msgbox_private.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\objx_templ 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\objx_templ\lv_objx_templ.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\objx_templ\lv_objx_templ.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\property 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\property\lv_animimage_properties.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\property\lv_dropdown_properties.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\property\lv_image_properties.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\property\lv_keyboard_properties.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\property\lv_label_properties.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\property\lv_obj_properties.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\property\lv_roller_properties.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\property\lv_slider_properties.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\property\lv_style_properties.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\property\lv_textarea_properties.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\property\lv_obj_property_names.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\property\lv_style_properties.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\roller 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\roller\lv_roller.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\roller\lv_roller.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\roller\lv_roller_private.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\scale 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\scale\lv_scale.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\scale\lv_scale.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\scale\lv_scale_private.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\slider 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\slider\lv_slider.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\slider\lv_slider.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\slider\lv_slider_private.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\span 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\span\lv_span.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\span\lv_span.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\span\lv_span_private.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\spinbox 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\spinbox\lv_spinbox.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\spinbox\lv_spinbox.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\spinbox\lv_spinbox_private.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\spinner 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\spinner\lv_spinner.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\spinner\lv_spinner.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\switch 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\switch\lv_switch.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\switch\lv_switch.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\switch\lv_switch_private.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\table 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\table\lv_table.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\table\lv_table.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\table\lv_table_private.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\tabview 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\tabview\lv_tabview.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\tabview\lv_tabview.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\tabview\lv_tabview_private.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\textarea 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\textarea\lv_textarea.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\textarea\lv_textarea.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\textarea\lv_textarea_private.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\tileview 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\tileview\lv_tileview.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\tileview\lv_tileview.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\tileview\lv_tileview_private.h 
+ 
+# 
+# D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\win 
+# 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\win\lv_win.c 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\win\lv_win.h 
+D:\VirtualBox\VirtualBoxShare\UEFI\edk2\SamModulePkg\Applications\lvgl\\src\widgets\win\lv_win_private.h 
+ 
