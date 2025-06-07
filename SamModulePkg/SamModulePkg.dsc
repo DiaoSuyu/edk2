@@ -64,7 +64,6 @@
   #
   AcpiLib|SamModulePkg/SamLib/Library/AcpiLib/AcpiLib.inf
   CommonLib|SamModulePkg/SamLib/Library/CommonLib/CommonLib.inf
-  DemoCapsulationLib|SamModulePkg/SamLib/Library/DemoCapsulationLib/DemoCapsulationLib.inf
   DemoLib|SamModulePkg/SamLib/Library/DemoLib/DemoLib.inf
   MsftBuildLib|SamModulePkg/SamLib/Library/MsftBuildLib/MsftBuildLib.inf
   ShellTextColorLib|SamModulePkg/SamLib/Library/ShellTextColorLib/ShellTextColorLib.inf
@@ -96,9 +95,13 @@
   SamModulePkg/Applications/DemoApp/ShellApp_Main/ShellApp_Main.inf
   SamModulePkg/Applications/DemoApp/Stdlib_Main/Stdlib_Main.inf
   SamModulePkg/Applications/DemoApp/Uefi_Main/Uefi_Main.inf
-  SamModulePkg/Applications/DemoCapsulationApp/DemoCapsulationApp.inf
   SamModulePkg/Applications/UefiShellTools/DumpAcpiTable/DumpAcpiTable.inf
   SamModulePkg/Applications/UefiShellTools/DelayTool/DelayTool.inf
+
+  # <Sam_Diao20250607+>
+  # lvgl gui(only for test)
+  SamModulePkg/Applications/lvgl/lvgl.inf
+  # <Sam_Diao20250607->
 
   #
   # Sam's Drivers
