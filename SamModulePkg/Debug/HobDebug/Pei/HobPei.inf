@@ -1,0 +1,34 @@
+## @file
+#  Hob Debug Pei Driver Module.
+#
+#
+##
+[Defines]
+  INF_VERSION                    = 0x00010005
+  BASE_NAME                      = HobPei
+  FILE_GUID                      = C27B193A-D076-4AC6-8DA1-7AC67B4ACA06
+  MODULE_TYPE                    = PEIM
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = HobPeiEntry
+
+[Sources]
+  HobPei.c
+  HobPei.h
+
+[Packages]
+  MdePkg/MdePkg.dec
+
+[LibraryClasses]
+  DebugLib              # MdePkg/MdePkg.dec
+  HobLib                # MdePkg/MdePkg.dec
+  MemoryAllocationLib   # MdePkg/MdePkg.dec
+  PeimEntryPoint        # MdePkg/MdePkg.dec
+
+[Guids]
+
+[Pcd]
+
+[Ppis]
+
+[Depex]
+  TRUE

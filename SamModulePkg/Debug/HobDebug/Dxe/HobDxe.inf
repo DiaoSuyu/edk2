@@ -1,0 +1,31 @@
+## @file
+#  Hob Debug Dxe Driver Module.
+#
+#
+##
+[Defines]
+  INF_VERSION                    = 0x00010005
+  BASE_NAME                      = HobDxe
+  FILE_GUID                      = CCDF4E35-4C7F-4C7B-B3FF-58373C3AAC25
+  MODULE_TYPE                    = DXE_DRIVER
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = HobDxeEntry
+
+[Sources]
+  HobDxe.c
+  HobDxe.h
+
+[Packages]
+  MdePkg/MdePkg.dec 
+
+[LibraryClasses]
+  DebugLib               # MdePkg/MdePkg.dec
+  HobLib                 # MdePkg/MdePkg.dec
+  UefiDriverEntryPoint   # MdePkg/MdePkg.dec
+
+[Guids]
+
+[Protocols]
+
+[Depex]
+  TRUE
